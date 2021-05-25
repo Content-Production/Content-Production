@@ -2549,10 +2549,10 @@ declare type TGatsbyTypes_Query = {|
   +allImageSharp: TGatsbyTypes_ImageSharpConnection,
   +mdx?: ?TGatsbyTypes_Mdx,
   +allMdx: TGatsbyTypes_MdxConnection,
-  +enJson?: ?TGatsbyTypes_EnJson,
-  +allEnJson: TGatsbyTypes_EnJsonConnection,
   +contentJson?: ?TGatsbyTypes_ContentJson,
   +allContentJson: TGatsbyTypes_ContentJsonConnection,
+  +enJson?: ?TGatsbyTypes_EnJson,
+  +allEnJson: TGatsbyTypes_EnJsonConnection,
   +siteBuildMetadata?: ?TGatsbyTypes_SiteBuildMetadata,
   +allSiteBuildMetadata: TGatsbyTypes_SiteBuildMetadataConnection,
   +sitePlugin?: ?TGatsbyTypes_SitePlugin,
@@ -2762,6 +2762,32 @@ declare type TGatsbyTypes_Query_allMdxArgs = {|
 |};
 
 
+declare type TGatsbyTypes_Query_contentJsonArgs = {|
+  id?: ?TGatsbyTypes_StringQueryOperatorInput,
+  parent?: ?TGatsbyTypes_NodeFilterInput,
+  children?: ?TGatsbyTypes_NodeFilterListInput,
+  internal?: ?TGatsbyTypes_InternalFilterInput,
+  files?: ?TGatsbyTypes_StringQueryOperatorInput,
+  imageSize?: ?TGatsbyTypes_IntQueryOperatorInput,
+  commit?: ?TGatsbyTypes_BooleanQueryOperatorInput,
+  contributors?: ?TGatsbyTypes_ContentJsonContributorsFilterListInput,
+  contributorsPerLine?: ?TGatsbyTypes_IntQueryOperatorInput,
+  projectName?: ?TGatsbyTypes_StringQueryOperatorInput,
+  projectOwner?: ?TGatsbyTypes_StringQueryOperatorInput,
+  repoType?: ?TGatsbyTypes_StringQueryOperatorInput,
+  repoHost?: ?TGatsbyTypes_StringQueryOperatorInput,
+  skipCi?: ?TGatsbyTypes_BooleanQueryOperatorInput,
+|};
+
+
+declare type TGatsbyTypes_Query_allContentJsonArgs = {|
+  filter?: ?TGatsbyTypes_ContentJsonFilterInput,
+  sort?: ?TGatsbyTypes_ContentJsonSortInput,
+  skip?: ?$ElementType<Scalars, 'Int'>,
+  limit?: ?$ElementType<Scalars, 'Int'>,
+|};
+
+
 declare type TGatsbyTypes_Query_enJsonArgs = {|
   id?: ?TGatsbyTypes_StringQueryOperatorInput,
   parent?: ?TGatsbyTypes_NodeFilterInput,
@@ -2813,32 +2839,6 @@ declare type TGatsbyTypes_Query_enJsonArgs = {|
 declare type TGatsbyTypes_Query_allEnJsonArgs = {|
   filter?: ?TGatsbyTypes_EnJsonFilterInput,
   sort?: ?TGatsbyTypes_EnJsonSortInput,
-  skip?: ?$ElementType<Scalars, 'Int'>,
-  limit?: ?$ElementType<Scalars, 'Int'>,
-|};
-
-
-declare type TGatsbyTypes_Query_contentJsonArgs = {|
-  id?: ?TGatsbyTypes_StringQueryOperatorInput,
-  parent?: ?TGatsbyTypes_NodeFilterInput,
-  children?: ?TGatsbyTypes_NodeFilterListInput,
-  internal?: ?TGatsbyTypes_InternalFilterInput,
-  files?: ?TGatsbyTypes_StringQueryOperatorInput,
-  imageSize?: ?TGatsbyTypes_IntQueryOperatorInput,
-  commit?: ?TGatsbyTypes_BooleanQueryOperatorInput,
-  contributors?: ?TGatsbyTypes_ContentJsonContributorsFilterListInput,
-  contributorsPerLine?: ?TGatsbyTypes_IntQueryOperatorInput,
-  projectName?: ?TGatsbyTypes_StringQueryOperatorInput,
-  projectOwner?: ?TGatsbyTypes_StringQueryOperatorInput,
-  repoType?: ?TGatsbyTypes_StringQueryOperatorInput,
-  repoHost?: ?TGatsbyTypes_StringQueryOperatorInput,
-  skipCi?: ?TGatsbyTypes_BooleanQueryOperatorInput,
-|};
-
-
-declare type TGatsbyTypes_Query_allContentJsonArgs = {|
-  filter?: ?TGatsbyTypes_ContentJsonFilterInput,
-  sort?: ?TGatsbyTypes_ContentJsonSortInput,
   skip?: ?$ElementType<Scalars, 'Int'>,
   limit?: ?$ElementType<Scalars, 'Int'>,
 |};
