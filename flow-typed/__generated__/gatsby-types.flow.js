@@ -1330,14 +1330,14 @@ export const TGatsbyTypes_FileFieldsEnumValues = Object.freeze({
   childMdx___frontmatter___featuredImage: 'childMdx.frontmatter.featuredImage',
   childMdx___frontmatter___hideBreadcrumbs: 'childMdx.frontmatter.hideBreadcrumbs',
   childMdx___frontmatter___hideScrollCTA: 'childMdx.frontmatter.hideScrollCTA',
+  childMdx___frontmatter___order: 'childMdx.frontmatter.order',
+  childMdx___frontmatter___hideLanguageSelector: 'childMdx.frontmatter.hideLanguageSelector',
   childMdx___frontmatter___header: 'childMdx.frontmatter.header',
   childMdx___frontmatter___headerOrder: 'childMdx.frontmatter.headerOrder',
-  childMdx___frontmatter___hideLanguageSelector: 'childMdx.frontmatter.hideLanguageSelector',
-  childMdx___frontmatter___order: 'childMdx.frontmatter.order',
-  childMdx___frontmatter___redirect_from: 'childMdx.frontmatter.redirect_from',
   childMdx___frontmatter___authors: 'childMdx.frontmatter.authors',
   childMdx___frontmatter___date: 'childMdx.frontmatter.date',
   childMdx___frontmatter___image: 'childMdx.frontmatter.image',
+  childMdx___frontmatter___redirect_from: 'childMdx.frontmatter.redirect_from',
   childMdx___slug: 'childMdx.slug',
   childMdx___body: 'childMdx.body',
   childMdx___excerpt: 'childMdx.excerpt',
@@ -2270,14 +2270,14 @@ export const TGatsbyTypes_MdxFieldsEnumValues = Object.freeze({
   frontmatter___featuredImage: 'frontmatter.featuredImage',
   frontmatter___hideBreadcrumbs: 'frontmatter.hideBreadcrumbs',
   frontmatter___hideScrollCTA: 'frontmatter.hideScrollCTA',
+  frontmatter___order: 'frontmatter.order',
+  frontmatter___hideLanguageSelector: 'frontmatter.hideLanguageSelector',
   frontmatter___header: 'frontmatter.header',
   frontmatter___headerOrder: 'frontmatter.headerOrder',
-  frontmatter___hideLanguageSelector: 'frontmatter.hideLanguageSelector',
-  frontmatter___order: 'frontmatter.order',
-  frontmatter___redirect_from: 'frontmatter.redirect_from',
   frontmatter___authors: 'frontmatter.authors',
   frontmatter___date: 'frontmatter.date',
   frontmatter___image: 'frontmatter.image',
+  frontmatter___redirect_from: 'frontmatter.redirect_from',
   slug: 'slug',
   body: 'body',
   excerpt: 'excerpt',
@@ -2408,14 +2408,14 @@ declare type TGatsbyTypes_MdxFrontmatter = {|
   +featuredImage?: ?$ElementType<Scalars, 'String'>,
   +hideBreadcrumbs?: ?$ElementType<Scalars, 'Boolean'>,
   +hideScrollCTA?: ?$ElementType<Scalars, 'Boolean'>,
+  +order?: ?$ElementType<Scalars, 'Int'>,
+  +hideLanguageSelector?: ?$ElementType<Scalars, 'Boolean'>,
   +header?: ?$ElementType<Scalars, 'Boolean'>,
   +headerOrder?: ?$ElementType<Scalars, 'Int'>,
-  +hideLanguageSelector?: ?$ElementType<Scalars, 'Boolean'>,
-  +order?: ?$ElementType<Scalars, 'Int'>,
-  +redirect_from?: ?Array<?$ElementType<Scalars, 'String'>>,
   +authors?: ?Array<?$ElementType<Scalars, 'String'>>,
   +date?: ?$ElementType<Scalars, 'Date'>,
   +image?: ?$ElementType<Scalars, 'String'>,
+  +redirect_from?: ?Array<?$ElementType<Scalars, 'String'>>,
 |};
 
 
@@ -2433,14 +2433,14 @@ declare type TGatsbyTypes_MdxFrontmatterFilterInput = {|
   featuredImage?: ?TGatsbyTypes_StringQueryOperatorInput,
   hideBreadcrumbs?: ?TGatsbyTypes_BooleanQueryOperatorInput,
   hideScrollCTA?: ?TGatsbyTypes_BooleanQueryOperatorInput,
+  order?: ?TGatsbyTypes_IntQueryOperatorInput,
+  hideLanguageSelector?: ?TGatsbyTypes_BooleanQueryOperatorInput,
   header?: ?TGatsbyTypes_BooleanQueryOperatorInput,
   headerOrder?: ?TGatsbyTypes_IntQueryOperatorInput,
-  hideLanguageSelector?: ?TGatsbyTypes_BooleanQueryOperatorInput,
-  order?: ?TGatsbyTypes_IntQueryOperatorInput,
-  redirect_from?: ?TGatsbyTypes_StringQueryOperatorInput,
   authors?: ?TGatsbyTypes_StringQueryOperatorInput,
   date?: ?TGatsbyTypes_DateQueryOperatorInput,
   image?: ?TGatsbyTypes_StringQueryOperatorInput,
+  redirect_from?: ?TGatsbyTypes_StringQueryOperatorInput,
 |};
 
 declare type TGatsbyTypes_MdxGroupConnection = {|
@@ -2691,15 +2691,15 @@ declare type TGatsbyTypes_Query_sitePageArgs = {|
   internalComponentName?: ?TGatsbyTypes_StringQueryOperatorInput,
   componentChunkName?: ?TGatsbyTypes_StringQueryOperatorInput,
   matchPath?: ?TGatsbyTypes_StringQueryOperatorInput,
+  id?: ?TGatsbyTypes_StringQueryOperatorInput,
+  parent?: ?TGatsbyTypes_NodeFilterInput,
+  children?: ?TGatsbyTypes_NodeFilterListInput,
+  internal?: ?TGatsbyTypes_InternalFilterInput,
   isCreatedByStatefulCreatePages?: ?TGatsbyTypes_BooleanQueryOperatorInput,
   context?: ?TGatsbyTypes_SitePageContextFilterInput,
   pluginCreator?: ?TGatsbyTypes_SitePluginFilterInput,
   pluginCreatorId?: ?TGatsbyTypes_StringQueryOperatorInput,
   componentPath?: ?TGatsbyTypes_StringQueryOperatorInput,
-  id?: ?TGatsbyTypes_StringQueryOperatorInput,
-  parent?: ?TGatsbyTypes_NodeFilterInput,
-  children?: ?TGatsbyTypes_NodeFilterListInput,
-  internal?: ?TGatsbyTypes_InternalFilterInput,
 |};
 
 
@@ -3229,15 +3229,15 @@ declare type TGatsbyTypes_SitePage = {|
     +internalComponentName: $ElementType<Scalars, 'String'>,
     +componentChunkName: $ElementType<Scalars, 'String'>,
     +matchPath?: ?$ElementType<Scalars, 'String'>,
+    +id: $ElementType<Scalars, 'ID'>,
+    +parent?: ?TGatsbyTypes_Node,
+    +children: Array<TGatsbyTypes_Node>,
+    +internal: TGatsbyTypes_Internal,
     +isCreatedByStatefulCreatePages?: ?$ElementType<Scalars, 'Boolean'>,
     +context?: ?TGatsbyTypes_SitePageContext,
     +pluginCreator?: ?TGatsbyTypes_SitePlugin,
     +pluginCreatorId?: ?$ElementType<Scalars, 'String'>,
     +componentPath?: ?$ElementType<Scalars, 'String'>,
-    +id: $ElementType<Scalars, 'ID'>,
-    +parent?: ?TGatsbyTypes_Node,
-    +children: Array<TGatsbyTypes_Node>,
-    +internal: TGatsbyTypes_Internal,
   |}
 |};
 
@@ -3293,14 +3293,6 @@ declare type TGatsbyTypes_SitePageContextFrontmatter = {|
   +image?: ?$ElementType<Scalars, 'String'>,
 |};
 
-
-declare type TGatsbyTypes_SitePageContextFrontmatter_dateArgs = {|
-  formatString?: ?$ElementType<Scalars, 'String'>,
-  fromNow?: ?$ElementType<Scalars, 'Boolean'>,
-  difference?: ?$ElementType<Scalars, 'String'>,
-  locale?: ?$ElementType<Scalars, 'String'>,
-|};
-
 declare type TGatsbyTypes_SitePageContextFrontmatterFilterInput = {|
   title?: ?TGatsbyTypes_StringQueryOperatorInput,
   description?: ?TGatsbyTypes_StringQueryOperatorInput,
@@ -3330,6 +3322,92 @@ export const TGatsbyTypes_SitePageFieldsEnumValues = Object.freeze({
   internalComponentName: 'internalComponentName',
   componentChunkName: 'componentChunkName',
   matchPath: 'matchPath',
+  id: 'id',
+  parent___id: 'parent.id',
+  parent___parent___id: 'parent.parent.id',
+  parent___parent___parent___id: 'parent.parent.parent.id',
+  parent___parent___parent___children: 'parent.parent.parent.children',
+  parent___parent___children: 'parent.parent.children',
+  parent___parent___children___id: 'parent.parent.children.id',
+  parent___parent___children___children: 'parent.parent.children.children',
+  parent___parent___internal___content: 'parent.parent.internal.content',
+  parent___parent___internal___contentDigest: 'parent.parent.internal.contentDigest',
+  parent___parent___internal___description: 'parent.parent.internal.description',
+  parent___parent___internal___fieldOwners: 'parent.parent.internal.fieldOwners',
+  parent___parent___internal___ignoreType: 'parent.parent.internal.ignoreType',
+  parent___parent___internal___mediaType: 'parent.parent.internal.mediaType',
+  parent___parent___internal___owner: 'parent.parent.internal.owner',
+  parent___parent___internal___type: 'parent.parent.internal.type',
+  parent___children: 'parent.children',
+  parent___children___id: 'parent.children.id',
+  parent___children___parent___id: 'parent.children.parent.id',
+  parent___children___parent___children: 'parent.children.parent.children',
+  parent___children___children: 'parent.children.children',
+  parent___children___children___id: 'parent.children.children.id',
+  parent___children___children___children: 'parent.children.children.children',
+  parent___children___internal___content: 'parent.children.internal.content',
+  parent___children___internal___contentDigest: 'parent.children.internal.contentDigest',
+  parent___children___internal___description: 'parent.children.internal.description',
+  parent___children___internal___fieldOwners: 'parent.children.internal.fieldOwners',
+  parent___children___internal___ignoreType: 'parent.children.internal.ignoreType',
+  parent___children___internal___mediaType: 'parent.children.internal.mediaType',
+  parent___children___internal___owner: 'parent.children.internal.owner',
+  parent___children___internal___type: 'parent.children.internal.type',
+  parent___internal___content: 'parent.internal.content',
+  parent___internal___contentDigest: 'parent.internal.contentDigest',
+  parent___internal___description: 'parent.internal.description',
+  parent___internal___fieldOwners: 'parent.internal.fieldOwners',
+  parent___internal___ignoreType: 'parent.internal.ignoreType',
+  parent___internal___mediaType: 'parent.internal.mediaType',
+  parent___internal___owner: 'parent.internal.owner',
+  parent___internal___type: 'parent.internal.type',
+  children: 'children',
+  children___id: 'children.id',
+  children___parent___id: 'children.parent.id',
+  children___parent___parent___id: 'children.parent.parent.id',
+  children___parent___parent___children: 'children.parent.parent.children',
+  children___parent___children: 'children.parent.children',
+  children___parent___children___id: 'children.parent.children.id',
+  children___parent___children___children: 'children.parent.children.children',
+  children___parent___internal___content: 'children.parent.internal.content',
+  children___parent___internal___contentDigest: 'children.parent.internal.contentDigest',
+  children___parent___internal___description: 'children.parent.internal.description',
+  children___parent___internal___fieldOwners: 'children.parent.internal.fieldOwners',
+  children___parent___internal___ignoreType: 'children.parent.internal.ignoreType',
+  children___parent___internal___mediaType: 'children.parent.internal.mediaType',
+  children___parent___internal___owner: 'children.parent.internal.owner',
+  children___parent___internal___type: 'children.parent.internal.type',
+  children___children: 'children.children',
+  children___children___id: 'children.children.id',
+  children___children___parent___id: 'children.children.parent.id',
+  children___children___parent___children: 'children.children.parent.children',
+  children___children___children: 'children.children.children',
+  children___children___children___id: 'children.children.children.id',
+  children___children___children___children: 'children.children.children.children',
+  children___children___internal___content: 'children.children.internal.content',
+  children___children___internal___contentDigest: 'children.children.internal.contentDigest',
+  children___children___internal___description: 'children.children.internal.description',
+  children___children___internal___fieldOwners: 'children.children.internal.fieldOwners',
+  children___children___internal___ignoreType: 'children.children.internal.ignoreType',
+  children___children___internal___mediaType: 'children.children.internal.mediaType',
+  children___children___internal___owner: 'children.children.internal.owner',
+  children___children___internal___type: 'children.children.internal.type',
+  children___internal___content: 'children.internal.content',
+  children___internal___contentDigest: 'children.internal.contentDigest',
+  children___internal___description: 'children.internal.description',
+  children___internal___fieldOwners: 'children.internal.fieldOwners',
+  children___internal___ignoreType: 'children.internal.ignoreType',
+  children___internal___mediaType: 'children.internal.mediaType',
+  children___internal___owner: 'children.internal.owner',
+  children___internal___type: 'children.internal.type',
+  internal___content: 'internal.content',
+  internal___contentDigest: 'internal.contentDigest',
+  internal___description: 'internal.description',
+  internal___fieldOwners: 'internal.fieldOwners',
+  internal___ignoreType: 'internal.ignoreType',
+  internal___mediaType: 'internal.mediaType',
+  internal___owner: 'internal.owner',
+  internal___type: 'internal.type',
   isCreatedByStatefulCreatePages: 'isCreatedByStatefulCreatePages',
   context___locale: 'context.locale',
   context___pagePath: 'context.pagePath',
@@ -3478,93 +3556,7 @@ export const TGatsbyTypes_SitePageFieldsEnumValues = Object.freeze({
   pluginCreator___packageJson___peerDependencies___version: 'pluginCreator.packageJson.peerDependencies.version',
   pluginCreator___packageJson___keywords: 'pluginCreator.packageJson.keywords',
   pluginCreatorId: 'pluginCreatorId',
-  componentPath: 'componentPath',
-  id: 'id',
-  parent___id: 'parent.id',
-  parent___parent___id: 'parent.parent.id',
-  parent___parent___parent___id: 'parent.parent.parent.id',
-  parent___parent___parent___children: 'parent.parent.parent.children',
-  parent___parent___children: 'parent.parent.children',
-  parent___parent___children___id: 'parent.parent.children.id',
-  parent___parent___children___children: 'parent.parent.children.children',
-  parent___parent___internal___content: 'parent.parent.internal.content',
-  parent___parent___internal___contentDigest: 'parent.parent.internal.contentDigest',
-  parent___parent___internal___description: 'parent.parent.internal.description',
-  parent___parent___internal___fieldOwners: 'parent.parent.internal.fieldOwners',
-  parent___parent___internal___ignoreType: 'parent.parent.internal.ignoreType',
-  parent___parent___internal___mediaType: 'parent.parent.internal.mediaType',
-  parent___parent___internal___owner: 'parent.parent.internal.owner',
-  parent___parent___internal___type: 'parent.parent.internal.type',
-  parent___children: 'parent.children',
-  parent___children___id: 'parent.children.id',
-  parent___children___parent___id: 'parent.children.parent.id',
-  parent___children___parent___children: 'parent.children.parent.children',
-  parent___children___children: 'parent.children.children',
-  parent___children___children___id: 'parent.children.children.id',
-  parent___children___children___children: 'parent.children.children.children',
-  parent___children___internal___content: 'parent.children.internal.content',
-  parent___children___internal___contentDigest: 'parent.children.internal.contentDigest',
-  parent___children___internal___description: 'parent.children.internal.description',
-  parent___children___internal___fieldOwners: 'parent.children.internal.fieldOwners',
-  parent___children___internal___ignoreType: 'parent.children.internal.ignoreType',
-  parent___children___internal___mediaType: 'parent.children.internal.mediaType',
-  parent___children___internal___owner: 'parent.children.internal.owner',
-  parent___children___internal___type: 'parent.children.internal.type',
-  parent___internal___content: 'parent.internal.content',
-  parent___internal___contentDigest: 'parent.internal.contentDigest',
-  parent___internal___description: 'parent.internal.description',
-  parent___internal___fieldOwners: 'parent.internal.fieldOwners',
-  parent___internal___ignoreType: 'parent.internal.ignoreType',
-  parent___internal___mediaType: 'parent.internal.mediaType',
-  parent___internal___owner: 'parent.internal.owner',
-  parent___internal___type: 'parent.internal.type',
-  children: 'children',
-  children___id: 'children.id',
-  children___parent___id: 'children.parent.id',
-  children___parent___parent___id: 'children.parent.parent.id',
-  children___parent___parent___children: 'children.parent.parent.children',
-  children___parent___children: 'children.parent.children',
-  children___parent___children___id: 'children.parent.children.id',
-  children___parent___children___children: 'children.parent.children.children',
-  children___parent___internal___content: 'children.parent.internal.content',
-  children___parent___internal___contentDigest: 'children.parent.internal.contentDigest',
-  children___parent___internal___description: 'children.parent.internal.description',
-  children___parent___internal___fieldOwners: 'children.parent.internal.fieldOwners',
-  children___parent___internal___ignoreType: 'children.parent.internal.ignoreType',
-  children___parent___internal___mediaType: 'children.parent.internal.mediaType',
-  children___parent___internal___owner: 'children.parent.internal.owner',
-  children___parent___internal___type: 'children.parent.internal.type',
-  children___children: 'children.children',
-  children___children___id: 'children.children.id',
-  children___children___parent___id: 'children.children.parent.id',
-  children___children___parent___children: 'children.children.parent.children',
-  children___children___children: 'children.children.children',
-  children___children___children___id: 'children.children.children.id',
-  children___children___children___children: 'children.children.children.children',
-  children___children___internal___content: 'children.children.internal.content',
-  children___children___internal___contentDigest: 'children.children.internal.contentDigest',
-  children___children___internal___description: 'children.children.internal.description',
-  children___children___internal___fieldOwners: 'children.children.internal.fieldOwners',
-  children___children___internal___ignoreType: 'children.children.internal.ignoreType',
-  children___children___internal___mediaType: 'children.children.internal.mediaType',
-  children___children___internal___owner: 'children.children.internal.owner',
-  children___children___internal___type: 'children.children.internal.type',
-  children___internal___content: 'children.internal.content',
-  children___internal___contentDigest: 'children.internal.contentDigest',
-  children___internal___description: 'children.internal.description',
-  children___internal___fieldOwners: 'children.internal.fieldOwners',
-  children___internal___ignoreType: 'children.internal.ignoreType',
-  children___internal___mediaType: 'children.internal.mediaType',
-  children___internal___owner: 'children.internal.owner',
-  children___internal___type: 'children.internal.type',
-  internal___content: 'internal.content',
-  internal___contentDigest: 'internal.contentDigest',
-  internal___description: 'internal.description',
-  internal___fieldOwners: 'internal.fieldOwners',
-  internal___ignoreType: 'internal.ignoreType',
-  internal___mediaType: 'internal.mediaType',
-  internal___owner: 'internal.owner',
-  internal___type: 'internal.type'
+  componentPath: 'componentPath'
 });
 
 
@@ -3576,15 +3568,15 @@ declare type TGatsbyTypes_SitePageFilterInput = {|
   internalComponentName?: ?TGatsbyTypes_StringQueryOperatorInput,
   componentChunkName?: ?TGatsbyTypes_StringQueryOperatorInput,
   matchPath?: ?TGatsbyTypes_StringQueryOperatorInput,
+  id?: ?TGatsbyTypes_StringQueryOperatorInput,
+  parent?: ?TGatsbyTypes_NodeFilterInput,
+  children?: ?TGatsbyTypes_NodeFilterListInput,
+  internal?: ?TGatsbyTypes_InternalFilterInput,
   isCreatedByStatefulCreatePages?: ?TGatsbyTypes_BooleanQueryOperatorInput,
   context?: ?TGatsbyTypes_SitePageContextFilterInput,
   pluginCreator?: ?TGatsbyTypes_SitePluginFilterInput,
   pluginCreatorId?: ?TGatsbyTypes_StringQueryOperatorInput,
   componentPath?: ?TGatsbyTypes_StringQueryOperatorInput,
-  id?: ?TGatsbyTypes_StringQueryOperatorInput,
-  parent?: ?TGatsbyTypes_NodeFilterInput,
-  children?: ?TGatsbyTypes_NodeFilterListInput,
-  internal?: ?TGatsbyTypes_InternalFilterInput,
 |};
 
 declare type TGatsbyTypes_SitePageGroupConnection = {|
@@ -4208,21 +4200,10 @@ declare type TGatsbyTypes_BlogHomeQueryENQuery = {| +allMdx: {| +edges: $ReadOnl
         ...{| +frontmatter?: ?$Pick<TGatsbyTypes_MdxFrontmatter, {| +title: *, +image?: *, +date?: *, +description?: *, +authors?: * |}> |}
       }) |}> |}, +allSitePage: {| +nodes: $ReadOnlyArray<$Pick<TGatsbyTypes_SitePage, {| +path: * |}>> |} |};
 
-declare type TGatsbyTypes_blogPostRecommendationsQueryVariables = {};
+declare type TGatsbyTypes_getMobileNavDataQueryVariables = {};
 
 
-declare type TGatsbyTypes_blogPostRecommendationsQuery = {| +blogPosts: {| +edges: $ReadOnlyArray<{| +node: ({
-          ...$Pick<TGatsbyTypes_Mdx, {| +fileAbsolutePath: *, +excerpt: *, +id: * |}>,
-        ...{| +frontmatter?: ?$Pick<TGatsbyTypes_MdxFrontmatter, {| +title: *, +date?: *, +description?: *, +authors?: *, +image?: * |}> |}
-      }) |}> |}, +siteContent: {| +edges: $ReadOnlyArray<{| +node: ({
-          ...$Pick<TGatsbyTypes_Mdx, {| +excerpt: *, +fileAbsolutePath: * |}>,
-        ...{| +headings?: ?$ReadOnlyArray<?$Pick<TGatsbyTypes_MdxHeadingMdx, {| +value?: * |}>>, +frontmatter?: ?$Pick<TGatsbyTypes_MdxFrontmatter, {| +title: *, +description?: *, +order?: * |}> |}
-      }) |}> |} |};
-
-declare type TGatsbyTypes_getMDXDataQueryVariables = {};
-
-
-declare type TGatsbyTypes_getMDXDataQuery = {| +allMdx: {| +edges: $ReadOnlyArray<{| +node: ({
+declare type TGatsbyTypes_getMobileNavDataQuery = {| +allMdx: {| +edges: $ReadOnlyArray<{| +node: ({
           ...$Pick<TGatsbyTypes_Mdx, {| +fileAbsolutePath: * |}>,
         ...{| +headings?: ?$ReadOnlyArray<?$Pick<TGatsbyTypes_MdxHeadingMdx, {| +value?: * |}>>, +frontmatter?: ?$Pick<TGatsbyTypes_MdxFrontmatter, {| +title: *, +order?: * |}> |}
       }) |}> |} |};
@@ -4242,6 +4223,25 @@ declare type TGatsbyTypes_getNavigationDataQuery = {| +headerFiles: {| +edges: $
         ...$Pick<TGatsbyTypes_Mdx, {| +fileAbsolutePath: * |}>,
       ...{| +internal: $Pick<TGatsbyTypes_Internal, {| +content?: * |}> |}
     })> |} |};
+
+declare type TGatsbyTypes_getMDXDataQueryVariables = {};
+
+
+declare type TGatsbyTypes_getMDXDataQuery = {| +allMdx: {| +edges: $ReadOnlyArray<{| +node: ({
+          ...$Pick<TGatsbyTypes_Mdx, {| +fileAbsolutePath: * |}>,
+        ...{| +headings?: ?$ReadOnlyArray<?$Pick<TGatsbyTypes_MdxHeadingMdx, {| +value?: * |}>>, +frontmatter?: ?$Pick<TGatsbyTypes_MdxFrontmatter, {| +title: *, +order?: * |}> |}
+      }) |}> |} |};
+
+declare type TGatsbyTypes_blogPostRecommendationsQueryVariables = {};
+
+
+declare type TGatsbyTypes_blogPostRecommendationsQuery = {| +blogPosts: {| +edges: $ReadOnlyArray<{| +node: ({
+          ...$Pick<TGatsbyTypes_Mdx, {| +fileAbsolutePath: *, +excerpt: *, +id: * |}>,
+        ...{| +frontmatter?: ?$Pick<TGatsbyTypes_MdxFrontmatter, {| +title: *, +date?: *, +description?: *, +authors?: *, +image?: * |}> |}
+      }) |}> |}, +siteContent: {| +edges: $ReadOnlyArray<{| +node: ({
+          ...$Pick<TGatsbyTypes_Mdx, {| +excerpt: *, +fileAbsolutePath: * |}>,
+        ...{| +headings?: ?$ReadOnlyArray<?$Pick<TGatsbyTypes_MdxHeadingMdx, {| +value?: * |}>>, +frontmatter?: ?$Pick<TGatsbyTypes_MdxFrontmatter, {| +title: *, +description?: *, +order?: * |}> |}
+      }) |}> |} |};
 
 declare type TGatsbyTypes_Unnamed_1_QueryVariables = {};
 
