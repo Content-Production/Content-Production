@@ -1,6 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-37-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -18,6 +20,7 @@ The Maker Foundation Community Development team began with a mandate to directly
 One of the Community Development projects is [the community portal](https://community-development.makerdao.com/), a community developed resource, built and maintained by MakerDAO community members. Below are instructions on getting started with the portal, which is built with [Gatsby](https://github.com/gatsbyjs/gatsby-starter-default) and [DAI UI](https://github.com/makerdao/dai-ui/).
 
 ## Portal
+
 ### 🚀 Setting Up Local Environments
 
 We've built this as a Theme-UI Gatsby starter for projects that will use Dai-UI theme kits.
@@ -77,7 +80,6 @@ A quick look at some important files and directories you'll see in this project.
     ├── package-lock.json
     ├── package.json
     └── README.md
-
 
 #### Important Directories
 

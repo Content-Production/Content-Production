@@ -1,21 +1,23 @@
 ---
 title: Inclusion Poll for $mip_set - $date_MONTH_DD,_YYYY
-summary: Signal your support or opposition for these proposals being included in this month's governance cycle. 
+summary: Signal your support or opposition for these proposals being included in this month's governance cycle.
 discussion_link: $discussion_link
 vote_type: Plurality Voting
 categories:
-   - MIPs
+  - MIPs
 options:
-   0: Abstain
-   1: Yes
-   2: No
+  0: Abstain
+  1: Yes
+  2: No
 ---
-# Inclusion Poll for $mip_set - $date_MONTH_DD,_YYYY
 
-The Governance Facilitators have placed an inclusion poll into the [voting system](https://vote.makerdao.com/polling) as part of the responsibilities defined in [MIP3](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d4e). This Governance [Poll](https://community-development.makerdao.com/en/learn/governance/on-chain-gov) will be active for three days beginning on $date_DAY,_MONTH_DD at 16:00 UTC.
+# Inclusion Poll for $mip_set - $date_MONTH_DD,\_YYYY
 
-**This is a binary vote.** 
-- **You may vote for a single option.** 
+The Governance Facilitators have placed an inclusion poll into the [voting system](https://vote.makerdao.com/polling) as part of the responsibilities defined in [MIP3](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d4e). This Governance [Poll](https://community-development.makerdao.com/en/learn/governance/on-chain-gov) will be active for three days beginning on \$date_DAY,\_MONTH_DD at 16:00 UTC.
+
+**This is a binary vote.**
+
+- **You may vote for a single option.**
 - **You should vote for the option which you prefer.**
 - **If you would accept either option, you should vote 'Abstain'.**
 
@@ -25,23 +27,24 @@ The community can vote in this poll to express support or opposition to these pr
 
 This Inclusion Poll MIP Set contains the following MIPs:
 
-* [mip_number: mip_title]($first_mip_discussion_link)
-* [mip_number: mip_title]($second_mip_discussion_link)
-* [mip_number: mip_title]($third_mip_discussion_link)
+- [mip_number: mip_title]($first_mip_discussion_link)
+- [mip_number: mip_title]($second_mip_discussion_link)
+- [mip_number: mip_title]($third_mip_discussion_link)
 
 A summary has been provided by the author of the MIPs:
 
-*($paragraph_summary)* 
+_(\$paragraph_summary)_
 
-Please review the linked discussion threads to inform your position on these proposals before voting. It was also mentioned and possibly discussed on the [Governance and Risk call]($governance_call_link) on $prev_governance_call_date.
+Please review the linked discussion threads to inform your position on these proposals before voting. It was also mentioned and possibly discussed on the [Governance and Risk call]($governance_call_link) on \$prev_governance_call_date.
 
 ## Outcomes
 
 This poll implements an **Inclusion Threshold.** The Inclusion Threshold is currently set to **3,000 MKR**.
 
 **If the votes for the 'Yes' option exceed the votes for the 'No' option by at least 3,000 MKR then the following actions will be taken:**
-* The Governance Facilitators will confirm the inclusion of these proposals within the next Monthly Governance Poll on the Governance and Risk call on $next_governance_call_date. 
-* The Monthly Governance Poll occurs in week 3 of the [Governance Cycle](https://github.com/makerdao/mips/blob/master/MIP3/mip3.md).
+
+- The Governance Facilitators will confirm the inclusion of these proposals within the next Monthly Governance Poll on the Governance and Risk call on \$next_governance_call_date.
+- The Monthly Governance Poll occurs in week 3 of the [Governance Cycle](https://github.com/makerdao/mips/blob/master/MIP3/mip3.md).
 
 **If the votes for the Yes' option DO NOT exceed the votes for the 'No' option by at least 3,000 MKR then this proposal will not be included in this month's governance cycle.**
 

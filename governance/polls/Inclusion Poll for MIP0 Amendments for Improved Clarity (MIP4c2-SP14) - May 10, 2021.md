@@ -1,22 +1,24 @@
 ---
 title: Inclusion Poll for MIP0 Amendments for Improved Clarity (MIP4c2-SP14) - May 10, 2021
-summary: Signal your support or opposition for this proposal being included in this month's governance cycle. 
+summary: Signal your support or opposition for this proposal being included in this month's governance cycle.
 discussion_link: https://forum.makerdao.com/t/mip4c2-sp14-mip0-amendments/7260
 vote_type: Plurality Voting
 categories:
-   - MIPs
-   - Governance
+  - MIPs
+  - Governance
 options:
-   0: Abstain
-   1: Yes
-   2: No
+  0: Abstain
+  1: Yes
+  2: No
 ---
+
 # Inclusion Poll for MIP0 Amendments for Improved Clarity (MIP4c2-SP14) - May 10, 2021
 
 The Governance Facilitators have placed an inclusion poll into the [voting system](https://vote.makerdao.com/polling) as part of the responsibilities defined in [MIP3](https://mips.makerdao.com/mips/details/MIP3). This Governance [Poll](https://community-development.makerdao.com/en/learn/governance/on-chain-gov) will be active for three days beginning on Monday, May 10 at 16:00 UTC.
 
-**This is a binary vote.** 
-- **You may vote for a single option.** 
+**This is a binary vote.**
+
+- **You may vote for a single option.**
 - **You should vote for the option which you prefer.**
 - **If you would accept either option, you should vote 'Abstain'.**
 
@@ -26,10 +28,9 @@ The community can vote in this poll to express support or opposition to this pro
 
 A summary has been provided by the author of the subproposal:
 
-*This MIP Amendment trims down, reformats and partly rewords MIP0 with the intent of making it easier to read and navigate. This MIP Amendment does not change MIP0's logic and processes.*
+_This MIP Amendment trims down, reformats and partly rewords MIP0 with the intent of making it easier to read and navigate. This MIP Amendment does not change MIP0's logic and processes._
 
-The full text of MIP4c2-SP14 can be read [here](
-https://github.com/makerdao/mips/blob/master/MIP4/MIP4c2-Subproposals/MIP4c2-SP14.md).
+The full text of MIP4c2-SP14 can be read [here](https://github.com/makerdao/mips/blob/master/MIP4/MIP4c2-Subproposals/MIP4c2-SP14.md).
 
 Please review the discussion [thread](https://forum.makerdao.com/t/mip4c2-sp14-mip0-amendments/7260) to inform your position on this proposal before voting. It was also mentioned and possibly discussed on the [Governance and Risk call](https://forum.makerdao.com/t/agenda-discussion-scientific-governance-and-risk-140-thursday-may-6-17-00-utc/7792) on May 6, 2021.
 
@@ -38,8 +39,9 @@ Please review the discussion [thread](https://forum.makerdao.com/t/mip4c2-sp14-m
 This poll implements an **Inclusion Threshold.** The Inclusion Threshold is currently set to **3,000 MKR**.
 
 **If the votes for the 'Yes' option exceed the votes for the 'No' option by at least 3,000 MKR then the following actions will be taken:**
-* The Governance Facilitators will confirm the inclusion of this proposal within the next Monthly Governance Poll on the Governance and Risk call on May 13, 2021. 
-* The Monthly Governance Poll occurs in week 3 of the [Governance Cycle](https://mips.makerdao.com/mips/details/MIP3#week-by-week-breakdown-of-the-monthly-governance-cycle).
+
+- The Governance Facilitators will confirm the inclusion of this proposal within the next Monthly Governance Poll on the Governance and Risk call on May 13, 2021.
+- The Monthly Governance Poll occurs in week 3 of the [Governance Cycle](https://mips.makerdao.com/mips/details/MIP3#week-by-week-breakdown-of-the-monthly-governance-cycle).
 
 **If the votes for the Yes' option DO NOT exceed the votes for the 'No' option by at least 3,000 MKR then this proposal will not be included in this month's governance cycle.**
 

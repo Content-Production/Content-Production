@@ -16,8 +16,9 @@ options:
 
 The Governance Facilitators have placed a Governance Poll into the voting system on behalf of the [MakerDAO Open Market Committee](https://forum.makerdao.com/t/parameter-proposal-group-makerdao-open-market-committee/7355). This Governance [Poll](https://community-development.makerdao.com/en/learn/governance/on-chain-gov) will be active for three days beginning on Monday, May 10 at 16:00 UTC.
 
-**This is a binary vote.** 
-- **You may vote for a single option.** 
+**This is a binary vote.**
+
+- **You may vote for a single option.**
 - **You should vote for the option which you prefer.**
 - **If you would accept either option, you should vote 'Abstain'.**
 
@@ -29,25 +30,25 @@ MKR Token Holders may vote in this poll to express support or opposition to the 
 
 **Stability Fee Increases**
 
-| Vault Type     |   Old |       New | Change |
-|----------------|-------|-----------|--------|
-| KNC-A          | 2.00% | **5.00%** |  3.00% |
-| TUSD-A         | 0.00% | **1.00%** |  1.00% |
-| PAX-A          | 0.00% | **1.00%** |  1.00% |
+| Vault Type | Old   | New       | Change |
+| ---------- | ----- | --------- | ------ |
+| KNC-A      | 2.00% | **5.00%** | 3.00%  |
+| TUSD-A     | 0.00% | **1.00%** | 1.00%  |
+| PAX-A      | 0.00% | **1.00%** | 1.00%  |
 
 **Stability Fee Decreases**
 
-| Vault Type     |   Old |   New | Change |
-|----------------|-------|-------|--------|
-| ETH-C          | 3.50% | **3.00%** | -0.50% |
+| Vault Type | Old   | New       | Change |
+| ---------- | ----- | --------- | ------ |
+| ETH-C      | 3.50% | **3.00%** | -0.50% |
 
 **Debt Ceiling Decreases**
 
-| Vault Type |         Old |       New |       Change |
-|------------|-------------|-----------|--------------|
-| KNC-A      |   5,000,000 |     **0** |   -5,000,000 |
-| PAX-A      | 100,000,000 |     **0** | -100,000,000 |
-| USDC-B     |  30,000,000 |     **0** |  -30,000,000 |
+| Vault Type | Old         | New   | Change       |
+| ---------- | ----------- | ----- | ------------ |
+| KNC-A      | 5,000,000   | **0** | -5,000,000   |
+| PAX-A      | 100,000,000 | **0** | -100,000,000 |
+| USDC-B     | 30,000,000  | **0** | -30,000,000  |
 
 Please review the proposal [thread](https://forum.makerdao.com/t/parameter-changes-proposal-ppg-omc-001-4-may-2021/7835) to help inform your position before voting.
 

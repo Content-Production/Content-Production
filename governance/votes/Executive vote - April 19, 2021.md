@@ -1,7 +1,9 @@
 ---
 title: Template - [Executive Vote] Liquidations 2.0 Contracts, Increase Emergency Shutdown Threshold  - April 19, 2021
 ---
-# [Executive Proposal] Liquidations 2.0 Contracts, Increase Emergency Shutdown Threshold  - April 19, 2021
+
+# [Executive Proposal] Liquidations 2.0 Contracts, Increase Emergency Shutdown Threshold - April 19, 2021
+
 The Governance Facilitator(s) and the MakerDAO Smart Contracts Domain Team have placed an executive proposal into the voting system. MKR Holders should vote for this proposal if they support the following alterations to the Maker Protocol.
 
 If you are new to voting in the Maker Protocol, please see the [voting guide](https://community-development.makerdao.com/en/learn/governance/how-voting-works/) to learn how voting works, and this [wallet setup guide](https://community-development.makerdao.com/en/learn/governance/voting-setup/) to set up your wallet to vote.
@@ -11,12 +13,13 @@ If you are new to voting in the Maker Protocol, please see the [voting guide](ht
 ## Executive Summary
 
 If this executive proposal passes, the following **additions** will be made to the Maker Protocol:
-* The Liquidations 2.0 Contracts will be authorized.
-* LINK-A will be moved to the Liquidations 2.0 Framework.
 
+- The Liquidations 2.0 Contracts will be authorized.
+- LINK-A will be moved to the Liquidations 2.0 Framework.
 
 If this executive proposal passes, the following **changes** will occur within the Maker Protocol:
-* The Emergency Shutdown Threshold will increase from 50,000 MKR to 75,000 MKR.
+
+- The Emergency Shutdown Threshold will increase from 50,000 MKR to 75,000 MKR.
 
 **Voting for this executive proposal will place your MKR in support of the changes and additions outlined above.**
 
@@ -33,14 +36,15 @@ If this executive proposal does not pass within 30 days, then it will expire and
 ### Authorize Liquidations 2.0 Contracts
 
 Given the passing of this [executive](https://vote.makerdao.com/executive/6058cea1efe023001bfeb313?network=mainnet#proposal-detail) the following contracts will be authorized to implement Liquidations 2.0 if this executive proposal passes:
-* Add contract "MCD_DOG" - The liquidation module contract, a full upgrade to the previous `cat` contract for liquidations.
-* Replace contract "MCD_END" - Contract for executing a shutdown of the protocol.
-* Replace contract "MCD_ESM" - Emergency Shutdown Module contract that enables burning MKR to shut the protocol down.
-* Replace contract "ILK_REGISTRY" - Contract defining the different vault types within the protocol.
-* Add contract "CLIPPER_MOM" - Contract that enables a "circuit breaker" for Liquidations 2.0 if the price of a collateral drops too severely.
-* Add contract "MCD_CLIP_LINK_A" - Contract containing the LINK-A auction module (with the parameters listed below).
-* Add contract "MCD_CLIP_CALC_LINK_A" - Contract that contains the Auction Price Function for LINK-A. 
-* Remove contract "MCD_FLIP_LINK_A" - The previous contract setting the LINK-A liquidation parameters.
+
+- Add contract "MCD_DOG" - The liquidation module contract, a full upgrade to the previous `cat` contract for liquidations.
+- Replace contract "MCD_END" - Contract for executing a shutdown of the protocol.
+- Replace contract "MCD_ESM" - Emergency Shutdown Module contract that enables burning MKR to shut the protocol down.
+- Replace contract "ILK_REGISTRY" - Contract defining the different vault types within the protocol.
+- Add contract "CLIPPER_MOM" - Contract that enables a "circuit breaker" for Liquidations 2.0 if the price of a collateral drops too severely.
+- Add contract "MCD_CLIP_LINK_A" - Contract containing the LINK-A auction module (with the parameters listed below).
+- Add contract "MCD_CLIP_CALC_LINK_A" - Contract that contains the Auction Price Function for LINK-A.
+- Remove contract "MCD_FLIP_LINK_A" - The previous contract setting the LINK-A liquidation parameters.
 
 Contract addresses and updates may be found in the [Collateral Onboarding Updates Rocket.Chat Channel](https://chat.makerdao.com/channel/collateral-onboarding-updates-ext).
 
@@ -51,32 +55,37 @@ Further details and rationale can be found in this [thread](https://forum.makerd
 Given the successful outcome of this [poll](https://vote.makerdao.com/polling/QmPtNp9a?network=mainnet#poll-detail), LINK-A will be added to the Liquidations 2.0 Framework with the following parameters if this executive proposal passes:
 
 **Auction Price**
-* [Auction Price Function (`calc`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): Stairstep Exponential
-   * [Price Change Multiplier (`cut`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 0.99
-   * [Price Change Interval (`step`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 90 seconds
-* [Auction Price Multiplier (`buf`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-multiplier): 1.3
+
+- [Auction Price Function (`calc`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): Stairstep Exponential
+  - [Price Change Multiplier (`cut`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 0.99
+  - [Price Change Interval (`step`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 90 seconds
+- [Auction Price Multiplier (`buf`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-multiplier): 1.3
 
 **Limits**
-* [Local Liquidation Limit (`ilk.hole`)](https://community-development.makerdao.com/en/learn/governance/param-local-liquidation-limit): 6 million DAI
-* [Maximum Auction Drawdown (`cusp`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-drawdown): 0.4
-* [Maximum Auction Duration (`tail`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-duration): 8,400 seconds
-* [Breaker Price Tolerance (`tolerance`)](https://community-development.makerdao.com/en/learn/governance/param-breaker-price-tolerance): 0.5
+
+- [Local Liquidation Limit (`ilk.hole`)](https://community-development.makerdao.com/en/learn/governance/param-local-liquidation-limit): 6 million DAI
+- [Maximum Auction Drawdown (`cusp`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-drawdown): 0.4
+- [Maximum Auction Duration (`tail`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-duration): 8,400 seconds
+- [Breaker Price Tolerance (`tolerance`)](https://community-development.makerdao.com/en/learn/governance/param-breaker-price-tolerance): 0.5
 
 **Incentives**
-* [Proportional Kick Incentive (`chip`)](https://community-development.makerdao.com/en/learn/governance/param-proportional-kick-incentive): 0.1%
-* [Flat Kick Incentive (`tip`)](https://community-development.makerdao.com/en/learn/governance/param-flat-kick-incentive): 0 DAI
 
-*Because this is the first vault type using Liquidations 2.0, the Global Liquidation Limit will also be set:*
+- [Proportional Kick Incentive (`chip`)](https://community-development.makerdao.com/en/learn/governance/param-proportional-kick-incentive): 0.1%
+- [Flat Kick Incentive (`tip`)](https://community-development.makerdao.com/en/learn/governance/param-flat-kick-incentive): 0 DAI
 
-**Global Parameters**  
-* [Global Liquidation Limit (`Hole`)](https://community-development.makerdao.com/en/learn/governance/param-global-liquidation-limit): 100 million DAI
+_Because this is the first vault type using Liquidations 2.0, the Global Liquidation Limit will also be set:_
+
+**Global Parameters**
+
+- [Global Liquidation Limit (`Hole`)](https://community-development.makerdao.com/en/learn/governance/param-global-liquidation-limit): 100 million DAI
 
 Further details and rationale can be found in the following [Risk Evaluation](https://forum.makerdao.com/t/link-a-liquidations-2-0-parameters/7180).
 
 ### Increase Emergency Shutdown Threshold
 
 Following this [Risk Evaluation](https://forum.makerdao.com/t/informal-poll-should-we-raise-the-minimum-mkr-needed-to-call-end-cage-for-emergency-shutdown/7277/16) and the subsequent [decision by the Governance Facilitator(s)](https://forum.makerdao.com/t/emergency-shutdown-module-threshold-change/7526), the following change will be made to the amount of MKR tokens needed to activate an Emergency Shutdown (call `end.cage`) if this executive proposal passes:
-* Increase threshold from 50,0000 MKR to 75,000 MKR.
+
+- Increase threshold from 50,0000 MKR to 75,000 MKR.
 
 ## Review
 

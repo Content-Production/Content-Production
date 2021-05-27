@@ -4,18 +4,20 @@ summary: Signal your support or opposition for the monthly MIPs bundle for May.
 discussion_link: https://forum.makerdao.com/t/weekly-mips-update-35/7962
 vote_type: Plurality Voting
 categories:
-   - MIPs
+  - MIPs
 options:
-   0: Abstain
-   1: Yes
-   2: No
+  0: Abstain
+  1: Yes
+  2: No
 ---
+
 # Monthly MIPs Governance Poll - May 17, 2021
 
 The Governance Facilitators have placed the monthly MIPs Governance Poll into the voting system as part of the responsibilities defined in [MIP3](https://github.com/makerdao/mips/blob/master/MIP3/mip3.md). This Governance [Poll](https://community-development.makerdao.com/en/learn/governance/on-chain-gov) will be active for three days beginning on Monday, May 17 at 16:00 UTC.
 
-**This is a binary vote.** 
-- **You may vote for a single option.** 
+**This is a binary vote.**
+
+- **You may vote for a single option.**
 - **You should vote for the option which you prefer.**
 - **If you would accept either option, you should vote 'Abstain'.**
 
@@ -24,13 +26,16 @@ The Governance Facilitators have placed the monthly MIPs Governance Poll into th
 This poll asks whether the bundled contents of this month's Governance Cycle should proceed to an Executive Vote to be held on May 24, 2021. The bundled contents of this poll consist of:
 
 **MIPs**
+
 - [MIP50: Direct Deposit Module](https://forum.makerdao.com/t/mip50-direct-deposit-module/7356)
 - [MIP51: Monthly Governance Cycle](https://forum.makerdao.com/t/mip51-monthly-governance-cycle/7366)
 
 **Amendments**
+
 - [MIP4c2-SP14: MIP0 Amendments](https://forum.makerdao.com/t/mip4c2-sp14-mip0-amendments/7260)
 
 **Sustainable Ecosystem Scaling Core Unit Onboarding Set**
+
 - [MIP39c2-SP10: Sustainable Ecosystem Scaling Core Unit Mandate, SES-001](https://forum.makerdao.com/t/mip39c2-sp10-adding-sustainable-ecosystem-scaling-core-unit/7368)
 - [MIP40c3-SP10: Core Unit Budget, SES-001](https://forum.makerdao.com/t/mip40c3-sp10-modify-core-unit-budget-ses-001/7369)
 - [MIP41c4-SP10: Facilitator Onboarding, SES-001](https://forum.makerdao.com/t/mip41c4-sp10-facilitator-onboarding-sustainable-ecosystem-scaling-core-unit/7370)
@@ -40,11 +45,14 @@ The proposals can be reviewed in this week's MIPs update [here](https://forum.ma
 ## Outcomes
 
 **If the votes for the 'Yes' option exceed the votes for the 'No' option, then the following actions will be taken:**
-* This MIPs bundle will proceed to the final ratification vote (Executive Vote) in the last week of the monthly Governance Cycle provided the Governance Facilitators confirm a 'yes' outcome of the Monthly Governance Poll on the next Governance and Risk call on May 20, 2021.
-* The Executive Vote will be submitted on May 24, 2021 assuming a positive outcome is confirmed by the Governance Facilitators.
+
+- This MIPs bundle will proceed to the final ratification vote (Executive Vote) in the last week of the monthly Governance Cycle provided the Governance Facilitators confirm a 'yes' outcome of the Monthly Governance Poll on the next Governance and Risk call on May 20, 2021.
+- The Executive Vote will be submitted on May 24, 2021 assuming a positive outcome is confirmed by the Governance Facilitators.
 
 **If the votes for the 'No' option equal or exceed the votes for the 'Yes' option, then no further action will be taken at this time.**
-* Proposals may be resubmitted to the governance cycle up to three times if they are voted down.
+
+- Proposals may be resubmitted to the governance cycle up to three times if they are voted down.
+
 ---
 
 ## Resources

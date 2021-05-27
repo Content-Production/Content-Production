@@ -4,18 +4,20 @@ summary: Signal your support or opposition to prioritising onboarding rETH (Rock
 discussion_link: https://forum.makerdao.com/t/reth-mip6-collateral-application/6881
 vote_type: Plurality Voting
 categories:
-   - Collateral
-   - Greenlight
+  - Collateral
+  - Greenlight
 options:
-   0: Abstain
-   1: Yes (Greenlight)
-   2: No (Defer)
+  0: Abstain
+  1: Yes (Greenlight)
+  2: No (Defer)
 ---
+
 # Poll: Community Greenlight Poll - rETH (Rocket Pool Staked ETH) - April 19, 2021
 
 The Governance Facilitators have placed a governance poll into the [voting system](https://vote.makerdao.com/polling) as part of their responsibilities as defined in [MIP9: Community Greenlight](https://github.com/makerdao/mips/blob/master/MIP9/mip9.md). This Governance [Poll](https://community-development.makerdao.com/en/learn/governance/on-chain-gov) will be active for fourteen days beginning on Monday, April 19 at 16:00 UTC.
 
 **This is a binary vote.**
+
 - **You may vote for a single option.**
 - **You should vote for the option which you prefer.**
 - **If you would accept either option, you should vote 'Abstain'.**
@@ -29,9 +31,10 @@ Please review the collateral onboarding application [thread](https://forum.maker
 ## Outcomes
 
 **Regardless of the winning option the following actions will be taken at the conclusion of this poll:**
-* The 'greenlight score' will be calculated for rETH (Rocket Pool Staked ETH) using the formula `Score = 'Yes' Votes - 'No' Votes`
-* The 'greenlight score' for rETH (Rocket Pool Staked ETH) will be added to the [Collateral Prioritisation Sheet](https://docs.google.com/spreadsheets/d/1IX9e2fyfz7djtDMKn5gMyGsyFxHoY75GncMbAjnSXrM/edit#gid=0) by the Governance Facilitators.
-* The Domain Teams will use the Collateral Prioritisation Sheet to direct their work on onboarding new collateral types.
+
+- The 'greenlight score' will be calculated for rETH (Rocket Pool Staked ETH) using the formula `Score = 'Yes' Votes - 'No' Votes`
+- The 'greenlight score' for rETH (Rocket Pool Staked ETH) will be added to the [Collateral Prioritisation Sheet](https://docs.google.com/spreadsheets/d/1IX9e2fyfz7djtDMKn5gMyGsyFxHoY75GncMbAjnSXrM/edit#gid=0) by the Governance Facilitators.
+- The Domain Teams will use the Collateral Prioritisation Sheet to direct their work on onboarding new collateral types.
 
 ---
 
