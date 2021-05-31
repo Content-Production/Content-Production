@@ -1,21 +1,23 @@
 ---
 title: Inclusion Poll for Staking Rewards (MIP49) - May 10, 2021
-summary: Signal your support or opposition for this proposal being included in this month's governance cycle. 
+summary: Signal your support or opposition for this proposal being included in this month's governance cycle.
 discussion_link: https://forum.makerdao.com/t/mip49-staking-rewards/6331
 vote_type: Plurality Voting
 categories:
-   - MIPs
+  - MIPs
 options:
-   0: Abstain
-   1: Yes
-   2: No
+  0: Abstain
+  1: Yes
+  2: No
 ---
+
 # Inclusion Poll for Staking Rewards (MIP49) - May 10, 2021
 
 The Governance Facilitators have placed an inclusion poll into the [voting system](https://vote.makerdao.com/polling) as part of the responsibilities defined in [MIP3](https://mips.makerdao.com/mips/details/MIP3). This Governance [Poll](https://community-development.makerdao.com/en/learn/governance/on-chain-gov) will be active for three days beginning on Monday, May 10 at 16:00 UTC.
 
-**This is a binary vote.** 
-- **You may vote for a single option.** 
+**This is a binary vote.**
+
+- **You may vote for a single option.**
 - **You should vote for the option which you prefer.**
 - **If you would accept either option, you should vote 'Abstain'.**
 
@@ -25,7 +27,7 @@ The community can vote in this poll to express support or opposition to this pro
 
 A summary has been provided by the MIP author:
 
-*This MIP covers the creation of a Staking Rewards process for MKR token holders, designed to distribute DAI as a percentage of protocol profits. MIP49 would entitle MKR holders to a share of this percentage based on the weight of their MKR staked in the Governance Contract. The implementation method is intentionally left open so that the protocol can adopt a more efficient method of distributing rewards, should one be developed.*
+_This MIP covers the creation of a Staking Rewards process for MKR token holders, designed to distribute DAI as a percentage of protocol profits. MIP49 would entitle MKR holders to a share of this percentage based on the weight of their MKR staked in the Governance Contract. The implementation method is intentionally left open so that the protocol can adopt a more efficient method of distributing rewards, should one be developed._
 
 The full text of MIP49 can be read [here](https://mips.makerdao.com/mips/details/MIP49).
 
@@ -36,8 +38,9 @@ Please review the discussion [thread](https://forum.makerdao.com/t/mip49-staking
 This poll implements an **Inclusion Threshold.** The Inclusion Threshold is currently set to **3,000 MKR**.
 
 **If the votes for the 'Yes' option exceed the votes for the 'No' option by at least 3,000 MKR then the following actions will be taken:**
-* The Governance Facilitators will confirm the inclusion of this proposal within the next Monthly Governance Poll on the Governance and Risk call on May 13, 2021. 
-* The Monthly Governance Poll occurs in week 3 of the [Governance Cycle](https://mips.makerdao.com/mips/details/MIP3#week-by-week-breakdown-of-the-monthly-governance-cycle).
+
+- The Governance Facilitators will confirm the inclusion of this proposal within the next Monthly Governance Poll on the Governance and Risk call on May 13, 2021.
+- The Monthly Governance Poll occurs in week 3 of the [Governance Cycle](https://mips.makerdao.com/mips/details/MIP3#week-by-week-breakdown-of-the-monthly-governance-cycle).
 
 **If the votes for the Yes' option DO NOT exceed the votes for the 'No' option by at least 3,000 MKR then this proposal will not be included in this month's governance cycle.**
 

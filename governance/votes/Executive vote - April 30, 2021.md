@@ -1,7 +1,7 @@
 ---
 title: Template - [Executive Vote] Liquidations 2.0 Activations, Oracle Feed Changes - April 30, 2021
-
 ---
+
 # [Executive Proposal] Liquidations 2.0 Activations, Oracle Feed Changes - April 30, 2021
 
 The Governance Facilitator(s) and the MakerDAO Smart Contracts Domain Team have placed an executive proposal into the voting system. MKR Holders should vote for this proposal if they support the following alterations to the Maker Protocol.
@@ -15,12 +15,14 @@ If you are new to voting in the Maker Protocol, please see the [voting guide](ht
 If this executive proposal passes, the following **changes** will occur within the Maker Protocol:
 
 **Liquidations 2.0**
+
 - The ETH-A vault type will be added to the liquidations 2.0 framework with the parameters listed below.
 - The ETH-B vault type will be added to the liquidations 2.0 framework with the parameters listed below.
 - The ETH-C vault type will be added to the liquidations 2.0 framework with the parameters listed below.
 - The WBTC-A vault type will be added to the liquidations 2.0 framework with the parameters listed below.
 
 **Oracles**
+
 - [DeFi Saver](https://defisaver.com/) will be onboarded as an Oracle Light Feed.
 - The pseudonymous individual known as 'Lisko' will be offboarded as an Oracle Dark Feed.
 
@@ -46,26 +48,30 @@ Given the successful outcomes of these polls for [ETH-A](https://vote.makerdao.c
 These parameters are the same for each of the ETH-A, ETH-B, ETH-C, and WBTC-A vault types.
 
 **Auction Price**
-* [Auction Price Function (`calc`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): Stairstep Exponential
-   * [Price Change Multiplier (`cut`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 0.99
-   * [Price Change Interval (`step`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 90 seconds
-* [Auction Price Multiplier (`buf`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-multiplier): 1.3
+
+- [Auction Price Function (`calc`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): Stairstep Exponential
+  - [Price Change Multiplier (`cut`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 0.99
+  - [Price Change Interval (`step`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 90 seconds
+- [Auction Price Multiplier (`buf`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-multiplier): 1.3
 
 **Limits**
-* [Maximum Auction Drawdown (`cusp`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-drawdown): 0.4
-* [Maximum Auction Duration (`tail`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-duration): 8,400 seconds
-* [Breaker Price Tolerance (`tolerance`)](https://community-development.makerdao.com/en/learn/governance/param-breaker-price-tolerance): 0.5
+
+- [Maximum Auction Drawdown (`cusp`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-drawdown): 0.4
+- [Maximum Auction Duration (`tail`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-duration): 8,400 seconds
+- [Breaker Price Tolerance (`tolerance`)](https://community-development.makerdao.com/en/learn/governance/param-breaker-price-tolerance): 0.5
 
 **Incentives**
-* [Proportional Kick Incentive (`chip`)](https://community-development.makerdao.com/en/learn/governance/param-proportional-kick-incentive): 0.1%
-* [Flat Kick Incentive (`tip`)](https://community-development.makerdao.com/en/learn/governance/param-flat-kick-incentive): 0 DAI
+
+- [Proportional Kick Incentive (`chip`)](https://community-development.makerdao.com/en/learn/governance/param-proportional-kick-incentive): 0.1%
+- [Flat Kick Incentive (`tip`)](https://community-development.makerdao.com/en/learn/governance/param-flat-kick-incentive): 0 DAI
 
 **[Local Liquidation Limits (`ilk.hole`)](https://community-development.makerdao.com/en/learn/governance/param-local-liquidation-limit)**  
 This parameter is different for each vault type.
-* ETH-A Local Liquidation Limit (`ilk.hole`): 22 million DAI
-* ETH-B Local Liquidation Limit (`ilk.hole`): 8 million DAI
-* ETH-C Local Liquidation Limit (`ilk.hole`): 5 million DAI
-* WBTC-A Local Liquidation Limit (`ilk.hole`): 15 million DAI
+
+- ETH-A Local Liquidation Limit (`ilk.hole`): 22 million DAI
+- ETH-B Local Liquidation Limit (`ilk.hole`): 8 million DAI
+- ETH-C Local Liquidation Limit (`ilk.hole`): 5 million DAI
+- WBTC-A Local Liquidation Limit (`ilk.hole`): 15 million DAI
 
 Further details and rationale can be found in the following [risk evaluation](https://forum.makerdao.com/t/eth-and-wbtc-vaults-liquidations-2-0-parameters/7628).
 
@@ -73,7 +79,7 @@ Further details and rationale can be found in the following [risk evaluation](ht
 
 Given the successful outcome of this [poll](https://vote.makerdao.com/polling/Qmby2Ur5?network=mainnet#poll-detail), [DeFi Saver](https://defisaver.com/) will be onboarded as an Oracle Light Feed if this proposal passes.
 
-Please see this light feed application [subproposal](https://forum.makerdao.com/t/mip10c14-sp7-proposal-appoint-defi-saver-as-a-light-feed/7207) for details and discussion. 
+Please see this light feed application [subproposal](https://forum.makerdao.com/t/mip10c14-sp7-proposal-appoint-defi-saver-as-a-light-feed/7207) for details and discussion.
 
 ### Remove 'Lisko' as an Oracle Dark Feed
 

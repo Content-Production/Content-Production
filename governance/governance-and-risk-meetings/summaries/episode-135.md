@@ -51,24 +51,24 @@ Deeper Discussions happen in the [Forum.](https://forum.makerdao.com/)
 
 - Total DAI supply above 3B!
 - The Surplus Buffer will cross 20M DAI for the first time today
-- Weekly VWAP for DAI down to $1.001
+- Weekly VWAP for DAI down to \$1.001
 
 ##### ICYMI Announcements
 
 - @SebVentures and the Real-World Finance Team published an [article on (Crypto) Banking 101.](https://forum.makerdao.com/t/crypto-banking-101/7257)
-- [Catch up on the MKR Compensation conversation](https://forum.makerdao.com/t/framing-a-framework-for-mkr-compensation-wednesday-march-31-17-00-utc/7200) and consider joining the newly * announced working group!
+- [Catch up on the MKR Compensation conversation](https://forum.makerdao.com/t/framing-a-framework-for-mkr-compensation-wednesday-march-31-17-00-utc/7200) and consider joining the newly \* announced working group!
 
 ##### Discussions
 
 - [Core Unit Mandate Overlap](https://forum.makerdao.com/t/core-unit-mandate-overlap/7210)
-    - @Planet_X points to overlap within Core Unit mandates, inviting community discussion on the process of decentralization.
+  - @Planet_X points to overlap within Core Unit mandates, inviting community discussion on the process of decentralization.
 - [Business strategy and evaluation framework for Business-like Core Units](https://forum.makerdao.com/t/business-strategy-and-evaluation-framework-for-business-like-core-units/7218)
-    - @SebVentures builds on the above thread and invites conversation on how Core Units can be evaluated.
+  - @SebVentures builds on the above thread and invites conversation on how Core Units can be evaluated.
 
 ##### Signal Requests
 
 - [Petition Letter to A16z](https://forum.makerdao.com/t/signal-request-petition-letter-to-a16z/7181)
-    - Voting Ends Soon! Following a previous [discussion](https://forum.makerdao.com/t/proposal-petition-letter-to-a16z/7025), @iammeeoh is looking to gather consensus around a petition for a16z to get involved in governance.
+  - Voting Ends Soon! Following a previous [discussion](https://forum.makerdao.com/t/proposal-petition-letter-to-a16z/7025), @iammeeoh is looking to gather consensus around a petition for a16z to get involved in governance.
 
 ### Real World Finance Team Update
 
@@ -106,8 +106,8 @@ Deeper Discussions happen in the [Forum.](https://forum.makerdao.com/)
 - The Optimism team delayed their launch, which gives us more time to audit. We don't have to rush the contracts.
 - We've developed an upgradable v1 bridge that can be replaced to support fast withdrawals in the future. We also developed a Governance repeater, which is a mechanism that allows us to run spells on L2 Optimism. We don't need to use the multi-sig.
 - We've been actively looking into Optimism's token bridge standard design discussions.
-    - Chris: I would like Derek to speak on the community sections. He was working directly with the SC domain team or the protocol engineering team.
-    - Derek: Yesterday, I [submitted the SC Core Unit Application](https://forum.makerdao.com/t/mip39c2-sp7-adding-protocol-engineering-core-unit/6831), which is now in the formal submission. It's been renamed into ProtocolEengineering because we've expanded the team to include two more individuals, Bartek and Chris, who have been doing a lot of work in L2 Optimism. It's enabling us to focus on innovation growth on the L2 world a lot more now than previously focused on. In the upcoming week, I will focus on creating team-specific backlogs, priorities and OKRs in advance of the executive vote. I am highlighting this point because we're committed to working on decentralization strategies and building a structure that enables multiple teams to contribute to the protocol.
+  - Chris: I would like Derek to speak on the community sections. He was working directly with the SC domain team or the protocol engineering team.
+  - Derek: Yesterday, I [submitted the SC Core Unit Application](https://forum.makerdao.com/t/mip39c2-sp7-adding-protocol-engineering-core-unit/6831), which is now in the formal submission. It's been renamed into ProtocolEengineering because we've expanded the team to include two more individuals, Bartek and Chris, who have been doing a lot of work in L2 Optimism. It's enabling us to focus on innovation growth on the L2 world a lot more now than previously focused on. In the upcoming week, I will focus on creating team-specific backlogs, priorities and OKRs in advance of the executive vote. I am highlighting this point because we're committed to working on decentralization strategies and building a structure that enables multiple teams to contribute to the protocol.
 
 ### Oracle Team Update
 
@@ -240,9 +240,9 @@ Deeper Discussions happen in the [Forum.](https://forum.makerdao.com/)
 ![](https://i.imgur.com/uqiJZUv.png)
 
 - Prose: I have a question on `tail` vs. `cusp.` When you adjust one, do you need to adjust another, or is it the `tail` that factors into that linear decrease of the curve?
-    - Emilio: `Tail` is a different parameter. In this case, it's not relevant. Those who don't know about `tail,` it's similar to what we have in Liquidations 1.0. It's a time limit on the duration of the liquidation. In this case, the Risk Team decided to use `cusp.` They define `tail` to be 2hrs 20 minutes instead of 2hrs 18 minutes. The fact that `tail` exists and allows you to have the freedom of deciding which parameters you want to use.
+  - Emilio: `Tail` is a different parameter. In this case, it's not relevant. Those who don't know about `tail,` it's similar to what we have in Liquidations 1.0. It's a time limit on the duration of the liquidation. In this case, the Risk Team decided to use `cusp.` They define `tail` to be 2hrs 20 minutes instead of 2hrs 18 minutes. The fact that `tail` exists and allows you to have the freedom of deciding which parameters you want to use.
 - Akash: What happens when nobody wants to buy at the minimum price? Does it reset? I'm thinking if the fair value price drops very fast while being below the minimum price, nobody will then bid that minimum price.
-    - Emilio: When it reaches the minimum price, no one can make a bid anymore. There is a possibility of resetting the function, and there can be incentives to do so. The initial price then gets recalculated into the new market conditions.
+  - Emilio: When it reaches the minimum price, no one can make a bid anymore. There is a possibility of resetting the function, and there can be incentives to do so. The initial price then gets recalculated into the new market conditions.
 
 ## Open Discussion
 
@@ -251,19 +251,19 @@ Deeper Discussions happen in the [Forum.](https://forum.makerdao.com/)
 [1:22:01](https://youtu.be/FCPAV83tEqw?t=4921)
 
 - Christopher Mooney: Is anybody planning to run a Keeper now that they don't require capitalization?
-    - David: I am not because the bots set up in the space are overspecialized and able to beat me. I'm waiting for a Dao or service that will allow me to participate without much setup.
-    - BrianMcMichael: You can borrow collateral from the auction contract and then sell it on the market and buy it back. This provides somewhat of a Flash Loan solution. We would like other aggregators to integrate some of these auctions.
+  - David: I am not because the bots set up in the space are overspecialized and able to beat me. I'm waiting for a Dao or service that will allow me to participate without much setup.
+  - BrianMcMichael: You can borrow collateral from the auction contract and then sell it on the market and buy it back. This provides somewhat of a Flash Loan solution. We would like other aggregators to integrate some of these auctions.
 - Akash: What do you think about people who will try to front-run?
-    - Kurt: That will probably happen. It's an acknowledged challenge within the Ethereum space as a whole. If it gets serious, we will plan on other designs which can lack this single block composability property, such as batched auctions with sealed bids containing various properties.
-    - Akash: In the first sets of auctions, people bid above fair market value. They are trying to drive away other auction participants. If one person is continuously winning, how do you combat that?
-    - Kurt: The protocol doesn't care, but vaults are being liquidated, and the vaults are recapitalizing. However, you can worry about being overly reliant on a single participant. If something happens to that participant, the auctions may not get covered. We believe Liquidations 2.0 is a lot more resilient allows for more participants.
-    - Akash: Is there a game theory audit on this?
-    - Kurt: We don't have a game theory audit. But we have relative audits and more available soon.
+  - Kurt: That will probably happen. It's an acknowledged challenge within the Ethereum space as a whole. If it gets serious, we will plan on other designs which can lack this single block composability property, such as batched auctions with sealed bids containing various properties.
+  - Akash: In the first sets of auctions, people bid above fair market value. They are trying to drive away other auction participants. If one person is continuously winning, how do you combat that?
+  - Kurt: The protocol doesn't care, but vaults are being liquidated, and the vaults are recapitalizing. However, you can worry about being overly reliant on a single participant. If something happens to that participant, the auctions may not get covered. We believe Liquidations 2.0 is a lot more resilient allows for more participants.
+  - Akash: Is there a game theory audit on this?
+  - Kurt: We don't have a game theory audit. But we have relative audits and more available soon.
 - LongForWisdom: We are working on in-depth documentation for parameters in Liquidations 2.0. We are trying to prepare them to release on Monday.
 - Kurt: A long-term direction to think about Liquidations 2.0 is along the lines of encouraging cooperative protocols. B protocol has been discussed a lot and is now abling liquidations to happen more predictably. These kinds of solutions are the more efficient direction to focus on if you want to recapitalize. Ethereum is fundamentally flawed by the exact things that make it great; composability, transparency, MEV, and others. These characteristics will have to be solved in a major way. The future can involve app-specific chains or migrate to DeFi specific chains due to a lack of infinite possibilities. We may eventually get to the area of Polkadot and Cosmos through roll-ups. Ethereum may break down into a network of blockchains.
-    - Frank Cruz: NICE!! (very excited)
+  - Frank Cruz: NICE!! (very excited)
 - Akash: Does Optimism solve any of these problems?
-    - Kurt: It really depends on the scenario. For some things, it can be better.
+  - Kurt: It really depends on the scenario. For some things, it can be better.
 
 #### Links from Chat
 

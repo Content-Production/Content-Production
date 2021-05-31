@@ -1,7 +1,7 @@
 ---
 title: Template - [Executive Vote] System Surplus Buffer Increase and Burn, Parameter Changes, YFI-A Addition to Liquidations 2.0 - April 23, 2021
-
 ---
+
 # [Executive Proposal] System Surplus Buffer Increase and Burn, Parameter Changes, YFI-A Addition to Liquidations 2.0 - April 23, 2021
 
 The Governance Facilitator(s) and the MakerDAO Smart Contracts Domain Team have placed an executive proposal into the voting system. MKR Holders should vote for this proposal if they support the following alterations to the Maker Protocol.
@@ -13,10 +13,12 @@ If you are new to voting in the Maker Protocol, please see the [voting guide](ht
 ## Executive Summary
 
 If this executive proposal passes, the following **changes** will occur within the Maker Protocol:
+
 - The System Surplus Buffer will be increased from 30MM to 60MM over a period of 99 days, targeting 25% of incoming revenue used to burn MKR.
 - Multiple changes to stability fees and debt ceilings will be made to various vault types as detailed below.
 
 If this executive proposal passes, the following **additions** will be made to the Maker Protocol:
+
 - YFI-A will be added to the Liquidations 2.0 framework.
 
 **Voting for this executive proposal will place your MKR in support of the changes and additions outlined above.**
@@ -45,20 +47,23 @@ Further details and rationale can be found in the following [thread](https://for
 Given the successful outcome of this [poll](https://vote.makerdao.com/polling/QmafteTW#poll-detail), YFI-A will be added to the Liquidations 2.0 framework with the following parameters if this executive proposal passes:
 
 **Auction Price**
-* [Auction Price Function (`calc`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): Stairstep Exponential
-   * [Price Change Multiplier (`cut`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 0.99
-   * [Price Change Interval (`step`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 90 seconds
-* [Auction Price Multiplier (`buf`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-multiplier): 1.3
+
+- [Auction Price Function (`calc`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): Stairstep Exponential
+  - [Price Change Multiplier (`cut`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 0.99
+  - [Price Change Interval (`step`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-function): 90 seconds
+- [Auction Price Multiplier (`buf`)](https://community-development.makerdao.com/en/learn/governance/param-auction-price-multiplier): 1.3
 
 **Limits**
-* [Local Liquidation Limit (`ilk.hole`)](https://community-development.makerdao.com/en/learn/governance/param-local-liquidation-limit): 5 million DAI
-* [Maximum Auction Drawdown (`cusp`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-drawdown): 0.4
-* [Maximum Auction Duration (`tail`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-duration): 8,400 seconds
-* [Breaker Price Tolerance (`tolerance`)](https://community-development.makerdao.com/en/learn/governance/param-breaker-price-tolerance): 0.5
+
+- [Local Liquidation Limit (`ilk.hole`)](https://community-development.makerdao.com/en/learn/governance/param-local-liquidation-limit): 5 million DAI
+- [Maximum Auction Drawdown (`cusp`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-drawdown): 0.4
+- [Maximum Auction Duration (`tail`)](https://community-development.makerdao.com/en/learn/governance/param-max-auction-duration): 8,400 seconds
+- [Breaker Price Tolerance (`tolerance`)](https://community-development.makerdao.com/en/learn/governance/param-breaker-price-tolerance): 0.5
 
 **Incentives**
-* [Proportional Kick Incentive (`chip`)](https://community-development.makerdao.com/en/learn/governance/param-proportional-kick-incentive): 0.1%
-* [Flat Kick Incentive (`tip`)](https://community-development.makerdao.com/en/learn/governance/param-flat-kick-incentive): 0 DAI
+
+- [Proportional Kick Incentive (`chip`)](https://community-development.makerdao.com/en/learn/governance/param-proportional-kick-incentive): 0.1%
+- [Flat Kick Incentive (`tip`)](https://community-development.makerdao.com/en/learn/governance/param-flat-kick-incentive): 0 DAI
 
 Further details and rationale can be found in the following [Risk Evaluation](https://forum.makerdao.com/t/yfi-a-liquidations-2-0-parameters/7502).
 
@@ -68,19 +73,19 @@ Given the successful outcome of this [poll](https://vote.makerdao.com/polling/Qm
 
 **Stability Fee Increases**
 
-| Vault Type     |   Old |    New | Change |
-|----------------|-------|--------|--------|
-| LINK-A         | 3.50% | **5.00%** |  1.50% |
-| ETH-B          | 9.00% | **10.00%**|  1.00% |
-| ZRX-A          | 2.00% | **4.00%** |  2.00% |
-| LRC-A          | 3.00% | **4.00%** |  1.00% |
-| UNIV2DAIETH-A  | 3.00% | **3.50%** |  0.50% |
-| UNIV2USDCETH-A | 3.50% | **4.50%** |  1.00% |
+| Vault Type     | Old   | New        | Change |
+| -------------- | ----- | ---------- | ------ |
+| LINK-A         | 3.50% | **5.00%**  | 1.50%  |
+| ETH-B          | 9.00% | **10.00%** | 1.00%  |
+| ZRX-A          | 2.00% | **4.00%**  | 2.00%  |
+| LRC-A          | 3.00% | **4.00%**  | 1.00%  |
+| UNIV2DAIETH-A  | 3.00% | **3.50%**  | 0.50%  |
+| UNIV2USDCETH-A | 3.50% | **4.50%**  | 1.00%  |
 
 **Stability Fee Decreases**
 
-| Vault Type     |   Old |   New | Change |
-|----------------|-------|-------|--------|
+| Vault Type     | Old   | New       | Change |
+| -------------- | ----- | --------- | ------ |
 | AAVE-A         | 4.00% | **3.00%** | -1.00% |
 | BAT-A          | 6.00% | **5.00%** | -1.00% |
 | MANA-A         | 4.00% | **3.00%** | -1.00% |
@@ -93,8 +98,8 @@ Given the successful outcome of this [poll](https://vote.makerdao.com/polling/Qm
 
 **Maximum Debt Ceiling Increases**
 
-| Vault Type    | Old        | New        | Change     |
-|---------------|------------|------------|------------|
+| Vault Type    | Old        | New            | Change     |
+| ------------- | ---------- | -------------- | ---------- |
 | YFI-A         | 75,000,000 | **90,000,000** | 15,000,000 |
 | AAVE-A        | 25,000,000 | **50,000,000** | 25,000,000 |
 | BAT-A         | 3,000,000  | **7,000,000**  | 4,000,000  |
@@ -105,59 +110,66 @@ Given the successful outcome of this [poll](https://vote.makerdao.com/polling/Qm
 
 **Maximum Debt Ceiling Decrease**
 
-| Vault Type |        Old |       New |     Change |
-|------------|------------|-----------|------------|
+| Vault Type | Old        | New           | Change     |
+| ---------- | ---------- | ------------- | ---------- |
 | LRC-A      | 10,000,000 | **5,000,000** | -5,000,000 |
 
 **Debt Ceiling Decrease**
 
-| Vault Type |        Old |       New |     Change |
-|------------|------------|-----------|------------|
-| USDT-A     |  2,500,000 |         **0** | -2,500,000 |
+| Vault Type | Old       | New   | Change     |
+| ---------- | --------- | ----- | ---------- |
+| USDT-A     | 2,500,000 | **0** | -2,500,000 |
 
 **Target Available Debt (`gap`) Changes**
 
-| Vault Type |       Old |       New |     Change |
-|------------|-----------|-----------|------------|
-| AAVE-A     | 2,000,000 | 5,000,000 |  3,000,000 |
-| RENBTC-A   |   500,000 | 1,000,000 |    500,000 |
-| MANA-A     |   500,000 | 1,000,000 |    500,000 |
-| BAL-A      | 1,000,000 | 3,000,000 |  2,000,000 |
+| Vault Type | Old       | New       | Change     |
+| ---------- | --------- | --------- | ---------- |
+| AAVE-A     | 2,000,000 | 5,000,000 | 3,000,000  |
+| RENBTC-A   | 500,000   | 1,000,000 | 500,000    |
+| MANA-A     | 500,000   | 1,000,000 | 500,000    |
+| BAL-A      | 1,000,000 | 3,000,000 | 2,000,000  |
 | LRC-A      | 2,000,000 | 1,000,000 | -1,000,000 |
 
 **Debt Ceiling Instant Access Module Activations**
 
 Activate **UNIV2WBTCETH-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 20 MM
 - Target Available Debt of 3 MM
 - Ceiling Increase Cooldown of 12 h
 
 Activate **UNIV2UNIETH-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 20 MM
 - Target Available Debt of 3 MM
 - Ceiling Increase Cooldown of 12 h
 
 Activate **UNIV2LINKETH-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 20 MM
 - Target Available Debt of 2 MM
 - Ceiling Increase Cooldown of 12 h
 
 Activate **UNIV2AAVEETH-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 20 MM
 - Target Available Debt of 2 MM
 - Ceiling Increase Cooldown of 12 h
 
 Activate **UNIV2ETHUSDT-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 10 MM
 - Target Available Debt of 2 MM
 - Ceiling Increase Cooldown of 12 h
 
 Activate **UNIV2DAIUSDT-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 10 MM
 - Target Available Debt of 2 MM
 - Ceiling Increase Cooldown of 12 h
 
 Activate **UNIV2WBTCDAI-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 20 MM
 - Target Available Debt of 3 MM
 - Ceiling Increase Cooldown of 12 h

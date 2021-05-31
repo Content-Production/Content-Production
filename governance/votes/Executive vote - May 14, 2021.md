@@ -1,7 +1,7 @@
 ---
 title: Template - [Executive Vote] Parameter Changes and Oracle Updates - May 14, 2021
-
 ---
+
 # [Executive Proposal] Parameter Changes and Oracle Updates - May 14, 2021
 
 The Governance Facilitator(s) and the Protocol Engineering Core Unit have placed an executive proposal into the voting system. MKR Holders should vote for this proposal if they support the following alterations to the Maker Protocol.
@@ -14,7 +14,7 @@ If you are new to voting in the Maker Protocol, please see the [voting guide](ht
 
 If this executive proposal passes, the following **changes** will occur within the Maker Protocol:
 
-- The Stability Fee for KNC-A will be **increased** to from 2.0% to 5.0% 
+- The Stability Fee for KNC-A will be **increased** to from 2.0% to 5.0%
 - The Stability Fee for TUSD-A and PAXUSD-A will be **increased** from 0.0% to 1.0%.
 - The Stability Fee for ETH-C will be **decreased** from 3.5% to 3.0%.
 - The Debt Ceiling for KNC-A, PAXUSD-A, and USDC-B will be **set to 0**.
@@ -39,7 +39,7 @@ Given the successful outcome of this [poll](https://vote.makerdao.com/polling/Qm
 #### Stability Fee Increases
 
 | **Vault Type** | **Previous** | **New** | **Change** |
-|----------------|--------------|---------|------------|
+| -------------- | ------------ | ------- | ---------- |
 | KNC-A          | 2.0%         | 5.0%    | +3.0%      |
 | TUSD-A         | 0.0%         | 1.0%    | +1.0%      |
 | PAXUSD-A       | 0.0%         | 1.0%    | +1.0%      |
@@ -47,13 +47,13 @@ Given the successful outcome of this [poll](https://vote.makerdao.com/polling/Qm
 #### Stability Fee Decreases
 
 | **Vault Type** | **Previous** | **New** | **Change** |
-|----------------|--------------|---------|------------|
+| -------------- | ------------ | ------- | ---------- |
 | ETH-C          | 3.5%         | 3.0%    | -0.5%      |
 
 #### Debt Ceiling Decreases
 
 | **Vault Type** | **Previous** | **New** | **Change** |
-|----------------|--------------|---------|------------|
+| -------------- | ------------ | ------- | ---------- |
 | KNC-A          | 5M DAI       | 0 DAI   | -5M DAI    |
 | PAXUSD-A       | 100M DAI     | 0 DAI   | -100M DAI  |
 | USDC-B         | 30M DAI      | 0 DAI   | -30M DAI   |

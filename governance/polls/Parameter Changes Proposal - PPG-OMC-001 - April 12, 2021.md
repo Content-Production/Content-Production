@@ -16,8 +16,9 @@ options:
 
 The Governance Facilitators have placed a Governance Poll into the voting system on behalf of the [MakerDAO Open Market Committee](https://forum.makerdao.com/t/parameter-proposal-group-makerdao-open-market-committee/7355). This Governance [Poll](https://community-development.makerdao.com/en/learn/governance/on-chain-gov) will be active for three days beginning on Monday, April 12 at 16:00 UTC.
 
-**This is a binary vote.** 
-- **You may vote for a single option.** 
+**This is a binary vote.**
+
+- **You may vote for a single option.**
 - **You should vote for the option which you prefer.**
 - **If you would accept either option, you should vote 'Abstain'.**
 
@@ -29,19 +30,19 @@ MKR Token Holders may vote in this poll to express support or opposition to the 
 
 **Stability Fee Increases**
 
-| Vault Type     |   Old |    New | Change |
-|----------------|-------|--------|--------|
-| LINK-A         | 3.50% | **5.00%** |  1.50% |
-| ETH-B          | 9.00% | **10.00%**|  1.00% |
-| ZRX-A          | 2.00% | **4.00%** |  2.00% |
-| LRC-A          | 3.00% | **4.00%** |  1.00% |
-| UNIV2DAIETH-A  | 3.00% | **3.50%** |  0.50% |
-| UNIV2USDCETH-A | 3.50% | **4.50%** |  1.00% |
+| Vault Type     | Old   | New        | Change |
+| -------------- | ----- | ---------- | ------ |
+| LINK-A         | 3.50% | **5.00%**  | 1.50%  |
+| ETH-B          | 9.00% | **10.00%** | 1.00%  |
+| ZRX-A          | 2.00% | **4.00%**  | 2.00%  |
+| LRC-A          | 3.00% | **4.00%**  | 1.00%  |
+| UNIV2DAIETH-A  | 3.00% | **3.50%**  | 0.50%  |
+| UNIV2USDCETH-A | 3.50% | **4.50%**  | 1.00%  |
 
 **Stability Fee Decreases**
 
-| Vault Type     |   Old |   New | Change |
-|----------------|-------|-------|--------|
+| Vault Type     | Old   | New       | Change |
+| -------------- | ----- | --------- | ------ |
 | AAVE-A         | 4.00% | **3.00%** | -1.00% |
 | BAT-A          | 6.00% | **5.00%** | -1.00% |
 | MANA-A         | 4.00% | **3.00%** | -1.00% |
@@ -54,8 +55,8 @@ MKR Token Holders may vote in this poll to express support or opposition to the 
 
 **Debt Ceiling Increases**
 
-| Vault Type    | Old        | New        | Change     |
-|---------------|------------|------------|------------|
+| Vault Type    | Old        | New            | Change     |
+| ------------- | ---------- | -------------- | ---------- |
 | YFI-A         | 75,000,000 | **90,000,000** | 15,000,000 |
 | AAVE-A        | 25,000,000 | **50,000,000** | 25,000,000 |
 | BAT-A         | 3,000,000  | **7,000,000**  | 4,000,000  |
@@ -66,54 +67,61 @@ MKR Token Holders may vote in this poll to express support or opposition to the 
 
 **Debt Ceiling Decreases**
 
-| Vault Type |        Old |       New |     Change |
-|------------|------------|-----------|------------|
+| Vault Type | Old        | New           | Change     |
+| ---------- | ---------- | ------------- | ---------- |
 | LRC-A      | 10,000,000 | **5,000,000** | -5,000,000 |
-| USDT-A     |  2,500,000 |         **0** | -2,500,000 |
+| USDT-A     | 2,500,000  | **0**         | -2,500,000 |
 
 **Target Available Debt (`gap`) Changes**
 
-| Vault Type |       Old |       New |     Change |
-|------------|-----------|-----------|------------|
-| AAVE-A     | 2,000,000 | 5,000,000 |  3,000,000 |
-| RENBTC-A   |   500,000 | 1,000,000 |    500,000 |
-| MANA-A     |   500,000 | 1,000,000 |    500,000 |
-| BAL-A      | 1,000,000 | 3,000,000 |  2,000,000 |
+| Vault Type | Old       | New       | Change     |
+| ---------- | --------- | --------- | ---------- |
+| AAVE-A     | 2,000,000 | 5,000,000 | 3,000,000  |
+| RENBTC-A   | 500,000   | 1,000,000 | 500,000    |
+| MANA-A     | 500,000   | 1,000,000 | 500,000    |
+| BAL-A      | 1,000,000 | 3,000,000 | 2,000,000  |
 | LRC-A      | 2,000,000 | 1,000,000 | -1,000,000 |
 
 **Debt Ceiling Instant Access Module Activations**
 
-Activate **UNIV2WBTCETH-A** DC-IAM with: 
+Activate **UNIV2WBTCETH-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 20 MM
 - Target Available Debt of 3 MM
 - Ceiling Increase Cooldown of 12 h
 
-Activate **UNIV2UNIETH-A** DC-IAM with: 
+Activate **UNIV2UNIETH-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 20 MM
 - Target Available Debt of 3 MM
 - Ceiling Increase Cooldown of 12 h
 
-Activate **UNIV2LINKETH-A** DC-IAM with: 
+Activate **UNIV2LINKETH-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 20 MM
 - Target Available Debt of 2 MM
 - Ceiling Increase Cooldown of 12 h
 
-Activate **UNIV2AAVEETH-A** DC-IAM with: 
+Activate **UNIV2AAVEETH-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 20 MM
 - Target Available Debt of 2 MM
 - Ceiling Increase Cooldown of 12 h
 
-Activate **UNIV2ETHUSDT-A** DC-IAM with: 
+Activate **UNIV2ETHUSDT-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 10 MM
 - Target Available Debt of 2 MM
 - Ceiling Increase Cooldown of 12 h
 
-Activate **UNIV2DAIUSDT-A** DC-IAM with: 
+Activate **UNIV2DAIUSDT-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 10 MM
 - Target Available Debt of 2 MM
 - Ceiling Increase Cooldown of 12 h
 
-Activate **UNIV2WBTCDAI-A** DC-IAM with: 
+Activate **UNIV2WBTCDAI-A** DC-IAM with:
+
 - Maximum Debt Ceiling of 20 MM
 - Target Available Debt of 3 MM
 - Ceiling Increase Cooldown of 12 h

@@ -23,7 +23,7 @@ As an example, given the existence of a USDC-backed PSM, a user would be able to
 
 ## Purpose
 
-The PSM contract was primarily created to help keep the DAI peg close to $1 during times where DAI demand outstrips DAI supply.
+The PSM contract was primarily created to help keep the DAI peg close to \$1 during times where DAI demand outstrips DAI supply.
 
 Initially, low liquidation ratio stablecoin vaults were used for this purpose, but this solution proved difficult for Governance to administer due to the risk of stability fees pushing vaults below the 100% collateralization ratio.
 

@@ -1,23 +1,25 @@
 ---
 title: Inclusion Poll for the MakerDAO Shop Core Unit MIP Set - April 12, 2021
-summary: Signal your support or opposition for these proposals being included in this month's governance cycle. 
+summary: Signal your support or opposition for these proposals being included in this month's governance cycle.
 discussion_link: https://forum.makerdao.com/t/mip39c2-sp6-makerdao-shop-core-unit-mds-001/6827
 vote_type: Plurality Voting
 categories:
-   - MIPs
-   - Core Unit
-   - Budget
+  - MIPs
+  - Core Unit
+  - Budget
 options:
-   0: Abstain
-   1: Yes
-   2: No
+  0: Abstain
+  1: Yes
+  2: No
 ---
+
 # Inclusion Poll for the MakerDAO Shop Core Unit MIP Set- April 12, 2021
 
 The Governance Facilitators have placed an inclusion poll into the [voting system](https://vote.makerdao.com/polling) as part of their responsibilities as defined in [MIP3](https://github.com/makerdao/mips/blob/master/MIP3/mip3.md). This Governance [Poll](https://community-development.makerdao.com/en/learn/governance/on-chain-gov) will be active for three days beginning on Monday, April 12 at 16:00 UTC.
 
-**This is a binary vote.** 
-- **You may vote for a single option.** 
+**This is a binary vote.**
+
+- **You may vote for a single option.**
 - **You should vote for the option which you prefer.**
 - **If you would accept either option, you should vote 'Abstain'.**
 
@@ -27,9 +29,9 @@ The community can vote in this poll to express support or opposition to these pr
 
 This Inclusion Poll MIP Set contains the following MIPs:
 
-* [MIP39c2-SP6: MakerDAO Shop Core Unit, MDS-001](https://forum.makerdao.com/t/mip39c2-sp6-makerdao-shop-core-unit-mds-001/6827)
-* [MIP40c2-SP6: MakerDAO Shop Budget, MDS-001](https://forum.makerdao.com/t/mip40c2-sp6-makerdao-shop-budget-mds-001/6829)
-* [MIP41c4-SP6: MakerDAO Shop Facilitator Onboarding, MDS-001](https://forum.makerdao.com/t/mip41c4-sp6-makerdao-shop-facilitator-onboarding-mds-001/6828)
+- [MIP39c2-SP6: MakerDAO Shop Core Unit, MDS-001](https://forum.makerdao.com/t/mip39c2-sp6-makerdao-shop-core-unit-mds-001/6827)
+- [MIP40c2-SP6: MakerDAO Shop Budget, MDS-001](https://forum.makerdao.com/t/mip40c2-sp6-makerdao-shop-budget-mds-001/6829)
+- [MIP41c4-SP6: MakerDAO Shop Facilitator Onboarding, MDS-001](https://forum.makerdao.com/t/mip41c4-sp6-makerdao-shop-facilitator-onboarding-mds-001/6828)
 
 Please review the linked discussion threads to inform your position on these proposals before voting. It was also mentioned and possibly discussed on the [Governance and Risk call](https://forum.makerdao.com/t/agenda-discussion-scientific-governance-and-risk-136-thursday-april-8-17-00-utc/7279) on April 8, 2021.
 
@@ -38,8 +40,9 @@ Please review the linked discussion threads to inform your position on these pro
 This poll implements an **Inclusion Threshold.** The Inclusion Threshold is currently set to **3,000 MKR**.
 
 **If the votes for the 'Yes' option exceed the votes for the 'No' option by at least 3,000 MKR then the following actions will be taken:**
-* The Governance Facilitators will confirm the inclusion of these proposals within the next Monthly Governance Poll on the Governance and Risk call on April 15, 2021. 
-* The Monthly Governance Poll occurs in week 3 of the [Governance Cycle](https://github.com/makerdao/mips/blob/master/MIP3/mip3.md).
+
+- The Governance Facilitators will confirm the inclusion of these proposals within the next Monthly Governance Poll on the Governance and Risk call on April 15, 2021.
+- The Monthly Governance Poll occurs in week 3 of the [Governance Cycle](https://github.com/makerdao/mips/blob/master/MIP3/mip3.md).
 
 **If the votes for the Yes' option DO NOT exceed the votes for the 'No' option by at least 3,000 MKR then this proposal will not be included in this month's governance cycle.**
 

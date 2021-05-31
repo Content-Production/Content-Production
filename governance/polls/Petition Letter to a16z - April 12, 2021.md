@@ -4,17 +4,20 @@ summary: Signal your support or opposition to signing the drafted petition lette
 discussion_link: https://forum.makerdao.com/t/signal-request-petition-letter-to-a16z/7181
 vote_type: Plurality Voting
 categories:
-   - Governance
+  - Governance
 options:
-   0: Abstain
-   1: Yes
-   2: No
+  0: Abstain
+  1: Yes
+  2: No
 ---
+
 # Poll: Petition Letter to a16z - April 12, 2021
+
 The Governance Facilitators have placed a Governance Poll into the voting system on behalf of the MakerDAO Community. This Governance [Poll](https://community-development.makerdao.com/en/learn/governance/on-chain-gov) will be active for three days beginning on Monday, April 12 at 16:00 UTC.
 
-**This is a binary vote.** 
-- **You may vote for a single option.** 
+**This is a binary vote.**
+
+- **You may vote for a single option.**
 - **You should vote for the option which you prefer.**
 - **If you would accept either option, you should vote 'Abstain'.**
 
@@ -25,6 +28,7 @@ Please review the discussion [thread](https://forum.makerdao.com/t/signal-reques
 The community can vote in this poll to express support or opposition to the signing the following petition letter. The canonical version of this letter is on IPFS [here](https://ipfsgate.com/ipfs/QmYDpsrhpnBNp4N8ASGCprw8iVEN8tLMGxzkzDNkgaNNWH). The contents have been pasted below for convenience.
 
 ---
+
 **Petition Letter**
 
 to the attention of the Andreessen Horowitz [A16z Crypto team](https://a16z.com/crypto/#vertical-landing-staff).
@@ -35,7 +39,7 @@ Since September 2018 MakerDAO has managed to achieve outstanding technical resul
 
 As planned from the very beginning, however, the Maker Foundation is going to be dissolved soon. This event corresponds to a critical, historical and exciting moment for MakerDAO: the decentralised community will have to manage itself and its DeFi protocol successfully without relying on a single centralised organisation.
 
-Since the beginning of 2021, the MakerDAO decentralised community has made significant steps towards decentralisation. Several *Core Units*, independent and focused groups of contributors paid by MakerDAO with the profits of the protocol, are being proposed, discussed and approved via the Governance process. But the path towards full decentralisation is hard, full of intricacies and is resource consuming. The help of all members of our decentralised community is now more needed than ever.
+Since the beginning of 2021, the MakerDAO decentralised community has made significant steps towards decentralisation. Several _Core Units_, independent and focused groups of contributors paid by MakerDAO with the profits of the protocol, are being proposed, discussed and approved via the Governance process. But the path towards full decentralisation is hard, full of intricacies and is resource consuming. The help of all members of our decentralised community is now more needed than ever.
 
 One of the [key objectives of A16z crypto](https://a16z.com/2021/02/05/on-crypto-governance/) is:
 
