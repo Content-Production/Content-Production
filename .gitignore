@@ -7,4 +7,3 @@ node_modules
 *.swp
 yarn-error.log
 package-lock.json
-flow-typed/__generated__
