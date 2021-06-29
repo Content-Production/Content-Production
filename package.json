@@ -105,10 +105,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/makerdao/community"
+    "url": "https://github.com/Content-Production/Content-Production"
   },
   "bugs": {
-    "url": "https://github.com/makerdao/community/issues"
+    "url": "https://github.com/Content-Production/Content-Production/issues"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
