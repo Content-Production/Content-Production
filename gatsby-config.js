@@ -16,10 +16,10 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: `MakerDAO Community Portal`,
-    description: `A Community of developers, designers, innovators, and just about everything cool under the sun. Come join our team!`,
-    author: `MakerDAO Commuminty Development Team`,
+    description: `A community of developers, designers, innovators, and just about everything cool under the sun. Come join our team!`,
+    author: `MakerDAO Commumunity Development Team`,
     copyright: '',
-    siteUrl: 'https://community-development.makerdao.com/',
+    siteUrl: 'makerdao.world',
   },
   plugins: [
     'gatsby-plugin-theme-ui',
