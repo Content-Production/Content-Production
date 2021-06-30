@@ -84,10 +84,11 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "npm run acrollout && gatsby build",
+    "build": "npm run acrollout && gatsby build --prefix-paths && gh-pages -public",
     "acrollout": "node scripts/allcontributors-transformer.js",
     "lint": "eslint --max-warnings 25 '**/*.{js,jsx}'",
     "format": "prettier --write \"**/*.{js,jsx,json,md,mdx}\"",
+    "pages": "npm install gh-pages --save-dev",
     "start": "npm run acrollout && gatsby develop",
     "serve": "gatsby serve",
     "flow-check": "yarn flow",
