@@ -17,9 +17,9 @@ module.exports = {
   siteMetadata: {
     title: `MakerDAO Community Portal`,
     description: `A community of developers, designers, innovators, and just about everything cool under the sun. Come join our team!`,
-    author: `MakerDAO Commumunity Development Team`,
+    author: `MakerDAO Commuminty Development Team`,
     copyright: '',
-    siteUrl: 'makerdao.world',
+    siteUrl: 'https://makerdao.world/',
   },
   plugins: [
     'gatsby-plugin-theme-ui',
