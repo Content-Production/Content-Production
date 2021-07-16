@@ -19,7 +19,7 @@ import {
   Tout,
   TransparencyDash,
 } from '@atoms';
-import { Aligner, Indent, Video } from '@modules/utility/';
+import { Aligner, Indent, QRCodeGen, Video } from '@modules/utility/';
 import { Authors, Blog } from '@templates';
 import { Box, Divider, Flex, Image, Text, jsx } from 'theme-ui';
 
@@ -68,6 +68,7 @@ const Custom_Components = {
   Callout,
   StatusBanner,
   Link,
+  QRCodeGen,
   Box,
   Flex,
   Icon,
