@@ -1,7 +1,7 @@
 {
   "name": "community-development-portal",
   "private": true,
-  "description": "MakerDAO's CommDev Gitbooks style portal",
+  "description": "MakerDAO's Community Portal",
   "version": "0.1.0",
   "author": "Réjon Taylor-Foster (@Maximum_Crash)",
   "dependencies": {
